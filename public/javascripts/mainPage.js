@@ -164,50 +164,56 @@ function plotCars(freeCars) {
             return false;
         }
         else {
-            $.ajax({
-                url: '/createBooking', //changed from intervalCheck
-                data: {vin: currentVin},
-                type: 'POST',
-                success: function(data) {
-                    console.log("createBooking Success!: ", data);
-
-                    $.ajax({
-                        url: '/intervalCheck',
-                        data: {
-                            bookingId: data.bookingId,
-                            reserveLat: data.lat,
-                            reserveLng: data.lng,
-                            userLat: myLatLng.lat,
-                            userLng: myLatLng.lng
-                        },
-                        type: 'POST',
-                        success: function(data) {
-                            console.log(data.message, data);
-                            var userResponse = confirm(data.message + " " + data.address);
-                            var newVin = data.vin;
-                            if (userResponse === true) {
-
-                                // Perhaps make a function for this call instead of another ajax call
-                                $.ajax({
-                                    url: '/createBooking', //changed from intervalCheck
-                                    data: {vin: newVin},
-                                    type: 'POST',
-                                    success: function(data) {
-                                        console.log("Reserve Made! ", data);
-                                        alert("Reservation Made!");
-                                    }
-                                });
-
-                            } else {
-                                alert("No reservation made.");
-                            }
-                        }
-                    });
-                }
-            });
+            reserveCar2Go(currentVin);
         }
         return false;
     });
+
+function reserveCar2Go(vinNumber) {
+    $.ajax({
+        url: '/createBooking', //changed from intervalCheck
+        data: {vin: vinNumber},
+        type: 'POST',
+        success: function(data) {
+            console.log("createBooking Success!: ", data);
+
+            $.ajax({
+                url: '/intervalCheck',
+                data: {
+                    bookingId: data.bookingId,
+                    reserveLat: data.lat,
+                    reserveLng: data.lng,
+                    userLat: myLatLng.lat,
+                    userLng: myLatLng.lng
+                },
+                type: 'POST',
+                success: function(data) {
+                    console.log(data.message, data);
+                    var userResponse = confirm(data.message + " " + data.address);
+                    var newVin = data.vin;
+                    if (userResponse === true) {
+
+                        reserveCar2Go(newVin);
+                        //// Perhaps make a function for this call instead of another ajax call
+                        //$.ajax({
+                        //    url: '/createBooking', //changed from intervalCheck
+                        //    data: {vin: newVin},
+                        //    type: 'POST',
+                        //    success: function(data) {
+                        //        console.log("Reserve Made! ", data);
+                        //        alert("Reservation Made!");
+                        //    }
+                        //});
+
+                    } else {
+                        alert("No reservation made.");
+                    }
+                }
+            });
+        }
+    });
+};
+
 
 // Car Object Example
 // var freeCars = {

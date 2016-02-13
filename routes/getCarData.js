@@ -22,7 +22,7 @@ router.get('/', function(req, res, next) {
     freeCars = commons.getCarsFromCar2Go();
     var carsJSON = JSON.parse(freeCars);
 
-     closestCar = commons.getNearestCar(userLocation, carsJSON.placemarks);
+    closestCar = commons.getNearestCar(userLocation, carsJSON.placemarks);
 
     var myObject = {cars: carsJSON, closest: closestCar, userLocation: userLocation};
 

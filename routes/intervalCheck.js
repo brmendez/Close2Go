@@ -86,15 +86,10 @@ router.post('/', function (req, res) {
 
     keepGoing();
 
-
-    //var myRequest = req.body;
-    //console.log("Interval Check!! ", myRequest);
-
     var myObject = {message: "There is a closer car! Would you like to reserve it? ", vin: closerCar.vin, address: closerCar.address};
     console.log("Interval Check!! ");
 
     res.json(myObject);
-
 
 });
 
