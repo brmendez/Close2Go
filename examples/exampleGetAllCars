@@ -1,0 +1,8914 @@
+var allCars = {
+placemarks: [
+{
+address: "17th Ave E 321, 98112 Seattle",
+coordinates: [
+-122.31009,
+47.62085,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 18,
+interior: "GOOD",
+name: "AXG4715",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5EK782545"
+},
+{
+address: "54th Ave SW 3865, 98116 Seattle",
+coordinates: [
+-122.40156,
+47.56919,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AWX9243",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0DK659377"
+},
+{
+address: "54th Ave S 5277, 98118 Seattle",
+coordinates: [
+-122.26585,
+47.55426,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AWY0339",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9EK782273"
+},
+{
+address: "37th Ave S 7857, 98118 Seattle",
+coordinates: [
+-122.28595,
+47.5318,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG4783",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8EK786587"
+},
+{
+address: "S Donovan St 1362, 98108 Seattle",
+coordinates: [
+-122.31534,
+47.52559,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 69,
+interior: "GOOD",
+name: "AXG4871",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4DK659818"
+},
+{
+address: "13th Ave S 2549, 98144 Seattle",
+coordinates: [
+-122.31612,
+47.58004,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 84,
+interior: "GOOD",
+name: "AXG5047",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5EK782870"
+},
+{
+address: "NE 58th St 849, 98105 Seattle",
+coordinates: [
+-122.31803,
+47.67078,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG4694",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5EK781413"
+},
+{
+address: "Wellington Ave 683, 98122 Seattle",
+coordinates: [
+-122.28432,
+47.6074,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 72,
+interior: "GOOD",
+name: "AWY0088",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0EK780296"
+},
+{
+address: "30th Ave S 2554, 98144 Seattle",
+coordinates: [
+-122.29403,
+47.58024,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 75,
+interior: "GOOD",
+name: "AXG5609",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1EK777813"
+},
+{
+address: "N 112th St 2120, 98133 Seattle",
+coordinates: [
+-122.33353,
+47.70962,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 57,
+interior: "GOOD",
+name: "AXG4776",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0FK788657"
+},
+{
+address: "S Pilgrim St 3919, 98118 Seattle",
+coordinates: [
+-122.28398,
+47.51562,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG4791",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6EK776530"
+},
+{
+address: "Stone Ave N 12279, 98133 Seattle",
+coordinates: [
+-122.34223,
+47.71901,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 36,
+interior: "GOOD",
+name: "AWY0347",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2EK782583"
+},
+{
+address: "W Comstock St 237, 98119 Seattle",
+coordinates: [
+-122.35967,
+47.63041,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 87,
+interior: "GOOD",
+name: "AWY0055",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2FK792290"
+},
+{
+address: "10th Ave E 1266, 98102 Seattle",
+coordinates: [
+-122.32016,
+47.63171,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 30,
+interior: "GOOD",
+name: "AXF4348",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3EK776601"
+},
+{
+address: "NE 55th St 5528, 98105 Seattle",
+coordinates: [
+-122.26795,
+47.66855,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXF4375",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2EK777156"
+},
+{
+address: "N 102nd St 918, 98133 Seattle",
+coordinates: [
+-122.34678,
+47.70292,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 48,
+interior: "GOOD",
+name: "AXF4350",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXFK787306"
+},
+{
+address: "W Galer St 1076, 98119 Seattle",
+coordinates: [
+-122.3714,
+47.6324,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 60,
+interior: "GOOD",
+name: "AXG5767",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3EK778669"
+},
+{
+address: "Greenwood Ave N 12582, 98133 Seattle",
+coordinates: [
+-122.35542,
+47.72114,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG4706",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6DK629767"
+},
+{
+address: "Thorndyke Ave W 2577, 98199 Seattle",
+coordinates: [
+-122.38485,
+47.64273,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 87,
+interior: "GOOD",
+name: "AXG4702",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2FK790569"
+},
+{
+address: "38th Ave 1826, 98122 Seattle",
+coordinates: [
+-122.28539,
+47.61783,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 21,
+interior: "GOOD",
+name: "AXG4693",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4EK782858"
+},
+{
+address: "S 100th St 170, 98168 Seattle",
+coordinates: [
+-122.33228,
+47.51394,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 48,
+interior: "GOOD",
+name: "AXF4344",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4EK780124"
+},
+{
+address: "28th Ave NE 12564, 98125 Seattle",
+coordinates: [
+-122.29759,
+47.72049,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 72,
+interior: "GOOD",
+name: "AXG5480",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9EK781768"
+},
+{
+address: "Thorndyke Ave W 2504, 98199 Seattle",
+coordinates: [
+-122.38549,
+47.64168,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 36,
+interior: "GOOD",
+name: "AXG5060",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4EK777692"
+},
+{
+address: "Meridian Ave N 7465, 98103 Seattle",
+coordinates: [
+-122.33278,
+47.68335,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATS2903",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1FK799862"
+},
+{
+address: "SW Cambridge Pl, 98106 Seattle",
+coordinates: [
+-122.33986,
+47.51851,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 33,
+interior: "GOOD",
+name: "ATZ 5045",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6FK788632"
+},
+{
+address: "18th Ave SW 8156, 98106 Seattle",
+coordinates: [
+-122.35767,
+47.52908,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 93,
+interior: "GOOD",
+name: "AXG5026",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5EK780004"
+},
+{
+address: "46th Ave SW 7665, 98136 Seattle",
+coordinates: [
+-122.39153,
+47.53354,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 54,
+interior: "GOOD",
+name: "ATZ5038",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3FK788295"
+},
+{
+address: "10th Ave E 1244, 98102 Seattle",
+coordinates: [
+-122.32014,
+47.63167,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 33,
+interior: "GOOD",
+name: "AXG4700",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8EK781860"
+},
+{
+address: "39th Ave W 2527, 98199 Seattle",
+coordinates: [
+-122.40726,
+47.64248,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 30,
+interior: "GOOD",
+name: "AWX9207",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8EK780658"
+},
+{
+address: "Phinney Ave N 5569, 98103 Seattle",
+coordinates: [
+-122.35454,
+47.66941,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 51,
+interior: "GOOD",
+name: "ATZ5100",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7FK790647"
+},
+{
+address: "Phinney Ave N 8765, 98103 Seattle",
+coordinates: [
+-122.35404,
+47.69361,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 54,
+interior: "GOOD",
+name: "AXG5743",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1FK790840"
+},
+{
+address: "NW 68th St 3251, 98117 Seattle",
+coordinates: [
+-122.39903,
+47.67826,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 15,
+interior: "GOOD",
+name: "AXG5758",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXFK794160"
+},
+{
+address: "16th Ave SW 5256, 98106 Seattle",
+coordinates: [
+-122.35472,
+47.55528,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5475",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5EK782223"
+},
+{
+address: "16th Ave 141, 98122 Seattle",
+coordinates: [
+-122.31164,
+47.60251,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 84,
+interior: "GOOD",
+name: "AXG5027",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4DK656997"
+},
+{
+address: "10th Ave W 1821, 98119 Seattle",
+coordinates: [
+-122.37046,
+47.63501,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 39,
+interior: "GOOD",
+name: "AXG5780",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4EK777739"
+},
+{
+address: "NE 58th St 139, 98105 Seattle",
+coordinates: [
+-122.32716,
+47.67083,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 75,
+interior: "GOOD",
+name: "AXG5765",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8FK787241"
+},
+{
+address: "36th Ave E 629, 98112 Seattle",
+coordinates: [
+-122.28687,
+47.62533,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5042",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4EK780205"
+},
+{
+address: "46th Ave SW 7659, 98136 Seattle",
+coordinates: [
+-122.39154,
+47.53359,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AWY0348",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3EK781216"
+},
+{
+address: "NW Dock Pl 1962, 98107 Seattle",
+coordinates: [
+-122.38148,
+47.66419,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 36,
+interior: "GOOD",
+name: "AXG5058",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4EK780172"
+},
+{
+address: "Alki Ave SW 3067, 98116 Seattle",
+coordinates: [
+-122.41793,
+47.5771,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5782",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1EK777620"
+},
+{
+address: "E Highland Dr 954, 98102 Seattle",
+coordinates: [
+-122.32069,
+47.63047,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5760",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9FK792397"
+},
+{
+address: "11th Ave E 725, 98102 Seattle",
+coordinates: [
+-122.31803,
+47.62575,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 78,
+interior: "GOOD",
+name: "AXG4697",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7EK783616"
+},
+{
+address: "Roslyn Pl N 14359, 98133 Seattle",
+coordinates: [
+-122.3408,
+47.73341,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 30,
+interior: "GOOD",
+name: "AWY0061",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0EK780184"
+},
+{
+address: "Pinehurst Way NE 11578, 98125 Seattle",
+coordinates: [
+-122.3129,
+47.71349,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 30,
+interior: "GOOD",
+name: "AXG5755",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4FK794705"
+},
+{
+address: "N 44th St 457, 98103 Seattle",
+coordinates: [
+-122.35316,
+47.66017,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5024",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8EK779896"
+},
+{
+address: "28th Ave NE 11063, 98125 Seattle",
+coordinates: [
+-122.29792,
+47.70931,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG4864",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5DK660184"
+},
+{
+address: "31st Ave 817, 98122 Seattle",
+coordinates: [
+-122.29259,
+47.60948,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 18,
+interior: "GOOD",
+name: "AXG4722",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5EK779984"
+},
+{
+address: "38th Ave SW 3091, 98126 Seattle",
+coordinates: [
+-122.38033,
+47.57662,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5752",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6FK788310"
+},
+{
+address: "49th Ave SW 3951, 98116 Seattle",
+coordinates: [
+-122.39479,
+47.56892,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5051",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5FK788461"
+},
+{
+address: "15th Ave E 1270, 98112 Seattle",
+coordinates: [
+-122.31244,
+47.63185,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5040",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8EK780045"
+},
+{
+address: "SW Admiral Way 6598, 98116 Seattle",
+coordinates: [
+-122.41677,
+47.57601,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 69,
+interior: "GOOD",
+name: "AWY0365",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4FK793358"
+},
+{
+address: "63rd Ave SW 3109, 98116 Seattle",
+coordinates: [
+-122.41332,
+47.57706,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG4772",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1CK563336"
+},
+{
+address: "14th Ave S 1709, 98144 Seattle",
+coordinates: [
+-122.31483,
+47.58834,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 54,
+interior: "GOOD",
+name: "ATS 2911",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8FK799972"
+},
+{
+address: "49th Ave SW 5405, 98136 Seattle",
+coordinates: [
+-122.39507,
+47.55391,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5066",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3EK781071"
+},
+{
+address: "12th Ave E 775, 98102 Seattle",
+coordinates: [
+-122.31687,
+47.62627,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 93,
+interior: "GOOD",
+name: "AXG4784",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3DK656179"
+},
+{
+address: "Interlake Ave N 4613, 98103 Seattle",
+coordinates: [
+-122.34074,
+47.66221,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AWY0080",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5EK780780"
+},
+{
+address: "W Ruffner St 1146, 98119 Seattle",
+coordinates: [
+-122.37189,
+47.65222,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 93,
+interior: "GOOD",
+name: "AXG5620",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7EK782398"
+},
+{
+address: "12th Ave S 9030, 98108 Seattle",
+coordinates: [
+-122.31762,
+47.52281,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 39,
+interior: "GOOD",
+name: "AXF4346",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4EK777353"
+},
+{
+address: "12th Ave NE 5365, 98105 Seattle",
+coordinates: [
+-122.31523,
+47.66762,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5652",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5DK655566"
+},
+{
+address: "Phinney Ave N 5956, 98103 Seattle",
+coordinates: [
+-122.35429,
+47.6722,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 54,
+interior: "GOOD",
+name: "AXG4782",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8EK784290"
+},
+{
+address: "S Vale St 952, 98108 Seattle",
+coordinates: [
+-122.31911,
+47.54887,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 48,
+interior: "GOOD",
+name: "AWX9208",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6EK785292"
+},
+{
+address: "12th Ave NW 7543, 98117 Seattle",
+coordinates: [
+-122.37148,
+47.68407,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5485",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1EK785961"
+},
+{
+address: "N 87th St 453, 98103 Seattle",
+coordinates: [
+-122.35323,
+47.69243,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 96,
+interior: "GOOD",
+name: "ATZ5014",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2EK782292"
+},
+{
+address: "Walnut Ave SW 3459, 98116 Seattle",
+coordinates: [
+-122.38357,
+47.57203,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATZ5022",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5EK784036"
+},
+{
+address: "17th Ave NW 5665, 98107 Seattle",
+coordinates: [
+-122.37884,
+47.66993,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 30,
+interior: "GOOD",
+name: "AXG4858",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5EK779595"
+},
+{
+address: "E Pike St 2411, 98122 Seattle",
+coordinates: [
+-122.30124,
+47.61413,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 48,
+interior: "GOOD",
+name: "AXG5746",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2FK789521"
+},
+{
+address: "3rd Ave W 334, 98119 Seattle",
+coordinates: [
+-122.36058,
+47.62143,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 36,
+interior: "GOOD",
+name: "ATZ5136",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2FK794525"
+},
+{
+address: "E Terrace St 2262, 98122 Seattle",
+coordinates: [
+-122.30308,
+47.60518,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 21,
+interior: "GOOD",
+name: "AWY0084",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3EK782611"
+},
+{
+address: "Sand Point Way NE 7548, 98115 Seattle",
+coordinates: [
+-122.26372,
+47.6839,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 93,
+interior: "GOOD",
+name: "AWY0082",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXEK781102"
+},
+{
+address: "12th Ave W 2637, 98119 Seattle",
+coordinates: [
+-122.37225,
+47.64392,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 51,
+interior: "GOOD",
+name: "AXG4716",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8EK782720"
+},
+{
+address: "12th Ave S 1767, 98144 Seattle",
+coordinates: [
+-122.3172,
+47.58703,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 48,
+interior: "GOOD",
+name: "ATZ5113",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0FK789582"
+},
+{
+address: "Latona Ave NE 6531, 98115 Seattle",
+coordinates: [
+-122.32617,
+47.6764,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 75,
+interior: "GOOD",
+name: "AXG5605",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXDK657541"
+},
+{
+address: "21st Ave NE 8243, 98115 Seattle",
+coordinates: [
+-122.30565,
+47.68907,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 51,
+interior: "GOOD",
+name: "AXG5049",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8EK784161"
+},
+{
+address: "Sturgus Ave S 1175, 98144 Seattle",
+coordinates: [
+-122.31261,
+47.59187,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5771",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5EK778320"
+},
+{
+address: "E McGilvra St 4161, 98112 Seattle",
+coordinates: [
+-122.27872,
+47.64068,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 21,
+interior: "GOOD",
+name: "AXG4889",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXDK659208"
+},
+{
+address: "64th Ave SW 3065, 98116 Seattle",
+coordinates: [
+-122.41459,
+47.57733,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 15,
+interior: "GOOD",
+name: "AWY0334",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3EK786822"
+},
+{
+address: "39th Ave E 2289, 98112 Seattle",
+coordinates: [
+-122.28298,
+47.63978,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 48,
+interior: "GOOD",
+name: "AXG5611",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8EK784726"
+},
+{
+address: "32nd Ave E 1009, 98112 Seattle",
+coordinates: [
+-122.2909,
+47.62757,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 18,
+interior: "GOOD",
+name: "AWY0058",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9DK628872"
+},
+{
+address: "10th Ave W 2439, 98119 Seattle",
+coordinates: [
+-122.37021,
+47.64006,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 15,
+interior: "GOOD",
+name: "AXG5645",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8DK654718"
+},
+{
+address: "NE 73rd St 3382, 98115 Seattle",
+coordinates: [
+-122.29167,
+47.68129,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5612",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5EK784490"
+},
+{
+address: "37th Ave SW 4135, 98126 Seattle",
+coordinates: [
+-122.37876,
+47.56588,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG4878",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6EK776673"
+},
+{
+address: "W Galer St 1671, 98119 Seattle",
+coordinates: [
+-122.37752,
+47.63149,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXF4354",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1FK794645"
+},
+{
+address: "Linden Ave N 4683, 98103 Seattle",
+coordinates: [
+-122.34863,
+47.66279,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 24,
+interior: "GOOD",
+name: "AXG4883",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1EK780968"
+},
+{
+address: "33rd Ave S 3426, 98144 Seattle",
+coordinates: [
+-122.29086,
+47.5722,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 63,
+interior: "GOOD",
+name: "AXG5063",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2EK780039"
+},
+{
+address: "N 42nd St 761, 98103 Seattle",
+coordinates: [
+-122.34911,
+47.65774,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5618",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6EK782540"
+},
+{
+address: "Prospect St 462, 98109 Seattle",
+coordinates: [
+-122.34806,
+47.62889,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 24,
+interior: "GOOD",
+name: "AXG4724",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4FK788662"
+},
+{
+address: "SW Trenton St 1037, 98106 Seattle",
+coordinates: [
+-122.34845,
+47.52467,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5616",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3EK782916"
+},
+{
+address: "Dibble Ave NW 8079, 98117 Seattle",
+coordinates: [
+-122.36732,
+47.68867,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG4735",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6EK780707"
+},
+{
+address: "NE 57th St 3011, 98105 Seattle",
+coordinates: [
+-122.29489,
+47.67032,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 27,
+interior: "GOOD",
+name: "AXG5737",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5EK779127"
+},
+{
+address: "51st Pl S 6063, 98118 Seattle",
+coordinates: [
+-122.26901,
+47.54821,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 63,
+interior: "GOOD",
+name: "AXG5607",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0DK628887"
+},
+{
+address: "Thorndyke Ave W 2451, 98199 Seattle",
+coordinates: [
+-122.38617,
+47.641,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5021",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXEK785487"
+},
+{
+address: "N 97th St 427, 98103 Seattle",
+coordinates: [
+-122.35367,
+47.69962,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 87,
+interior: "GOOD",
+name: "AWY0065",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3EK781958"
+},
+{
+address: "36th Ave SW 9463, 98126 Seattle",
+coordinates: [
+-122.37822,
+47.51818,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 66,
+interior: "GOOD",
+name: "AXG5776",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8EK778067"
+},
+{
+address: "Sand Point Way NE 6342, 98115 Seattle",
+coordinates: [
+-122.26438,
+47.67466,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5062",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2EK779926"
+},
+{
+address: "NE 100th St 2152, 98125 Seattle",
+coordinates: [
+-122.30523,
+47.70124,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5487",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7DK659022"
+},
+{
+address: "5th Ave NE 5635, 98105 Seattle",
+coordinates: [
+-122.32293,
+47.66961,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 48,
+interior: "GOOD",
+name: "AXG4882",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8EK781065"
+},
+{
+address: "E Jefferson St 2940, 98122 Seattle",
+coordinates: [
+-122.29439,
+47.60614,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 39,
+interior: "GOOD",
+name: "AWY0074",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2DK654360"
+},
+{
+address: "W Olympic Pl 394, 98119 Seattle",
+coordinates: [
+-122.36281,
+47.62679,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5617",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5EK782674"
+},
+{
+address: "California Ave SW 2177, 98116 Seattle",
+coordinates: [
+-122.38654,
+47.58436,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 69,
+interior: "GOOD",
+name: "AXG4736",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3EK781149"
+},
+{
+address: "Meridian Ave N 3345, 98103 Seattle",
+coordinates: [
+-122.33399,
+47.64739,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AWB6245",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0FK788366"
+},
+{
+address: "33rd Ave NE 6281, 98115 Seattle",
+coordinates: [
+-122.29225,
+47.67546,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 48,
+interior: "GOOD",
+name: "AXG5476",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2EK782017"
+},
+{
+address: "Stanford Ave NE 4591, 98105 Seattle",
+coordinates: [
+-122.27671,
+47.67077,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 27,
+interior: "GOOD",
+name: "AXG4699",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9EK782502"
+},
+{
+address: "SW Admiral Way 5324, 98116 Seattle",
+coordinates: [
+-122.40102,
+47.57875,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5483",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8EK781180"
+},
+{
+address: "S Morgan St 4824, 98118 Seattle",
+coordinates: [
+-122.27145,
+47.54429,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5784",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1EK777357"
+},
+{
+address: "N 34th St 515, 98103 Seattle",
+coordinates: [
+-122.35272,
+47.65002,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 27,
+interior: "GOOD",
+name: "ATS 2904",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXFK800104"
+},
+{
+address: "40th Ave NE 5255, 98105 Seattle",
+coordinates: [
+-122.28478,
+47.66806,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG4859",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6EK779511"
+},
+{
+address: "Seneca St 1038, 98101 Seattle",
+coordinates: [
+-122.32713,
+47.61045,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5679",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0DK656981"
+},
+{
+address: "28th Ave NE 12581, 98125 Seattle",
+coordinates: [
+-122.29781,
+47.72079,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG4855",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2EK780381"
+},
+{
+address: "E Union St 3559, 98122 Seattle",
+coordinates: [
+-122.28793,
+47.61286,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 66,
+interior: "GOOD",
+name: "AXG4854",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7EK780408"
+},
+{
+address: "31st Ave SW 9895, 98126 Seattle",
+coordinates: [
+-122.37199,
+47.51452,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 60,
+interior: "GOOD",
+name: "AWY0340",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6EK784093"
+},
+{
+address: "10th Ave E 1266, 98102 Seattle",
+coordinates: [
+-122.32016,
+47.63172,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 78,
+interior: "GOOD",
+name: "AXF4341",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5EK776681"
+},
+{
+address: "2nd Ave N 1479, 98109 Seattle",
+coordinates: [
+-122.3526,
+47.63206,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 93,
+interior: "GOOD",
+name: "AXG5678",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXDK656941"
+},
+{
+address: "Roosevelt Way NE 5953, 98105 Seattle",
+coordinates: [
+-122.31745,
+47.67177,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 30,
+interior: "GOOD",
+name: "AWY0064",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8EK779252"
+},
+{
+address: "Ohio Ave S 4715, 98134 Seattle",
+coordinates: [
+-122.33816,
+47.56148,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 33,
+interior: "GOOD",
+name: "AUK2230",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7EK784183"
+},
+{
+address: "Seaview Ave NW 6699, 98117 Seattle",
+coordinates: [
+-122.4063,
+47.67798,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 27,
+interior: "GOOD",
+name: "ATZ5008",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4EK781449"
+},
+{
+address: "24th Ave S 4853, 98108 Seattle",
+coordinates: [
+-122.3029,
+47.55899,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5490",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9DK658891"
+},
+{
+address: "SW Thistle St 2040, 98106 Seattle",
+coordinates: [
+-122.35965,
+47.52835,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 54,
+interior: "GOOD",
+name: "AWY0075",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7DK655648"
+},
+{
+address: "W Bothwell St 826, 98119 Seattle",
+coordinates: [
+-122.36785,
+47.64358,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 18,
+interior: "GOOD",
+name: "ATZ5083",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5FK795278"
+},
+{
+address: "E Fir St 1782, 98122 Seattle",
+coordinates: [
+-122.30912,
+47.6027,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 30,
+interior: "GOOD",
+name: "AWY0354",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5EK780522"
+},
+{
+address: "NE 72nd St 1057, 98115 Seattle",
+coordinates: [
+-122.31697,
+47.68083,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 63,
+interior: "GOOD",
+name: "AWY0345",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2EK780770"
+},
+{
+address: "19th Ave 1249, 98122 Seattle",
+coordinates: [
+-122.30759,
+47.61224,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 45,
+interior: "GOOD",
+name: "AXG5738",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7EK779100"
+},
+{
+address: "50th Ave NE 5217, 98105 Seattle",
+coordinates: [
+-122.27414,
+47.66698,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5614",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8EK784063"
+},
+{
+address: "E Harrison St 972, 98102 Seattle",
+coordinates: [
+-122.32015,
+47.62203,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 36,
+interior: "GOOD",
+name: "AXG4799",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0FK787010"
+},
+{
+address: "S Myrtle St 5228, 98118 Seattle",
+coordinates: [
+-122.26594,
+47.53893,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 90,
+interior: "GOOD",
+name: "AXG4879",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXEK776661"
+},
+{
+address: "Magnolia Blvd W 2849, 98199 Seattle",
+coordinates: [
+-122.41427,
+47.64666,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5615",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5EK783713"
+},
+{
+address: "36th Ave NE 6577, 98115 Seattle",
+coordinates: [
+-122.28917,
+47.6772,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 42,
+interior: "GOOD",
+name: "AXG5022",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2EK782146"
+},
+{
+address: "N 137th St 935, 98133 Seattle",
+coordinates: [
+-122.34681,
+47.72863,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 30,
+interior: "GOOD",
+name: "ATS2942",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1FK799618"
+},
+{
+address: "W Lynn St 2452, 98199 Seattle",
+coordinates: [
+-122.38923,
+47.63916,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 24,
+interior: "GOOD",
+name: "ATS2900",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7FK800111"
+},
+{
+address: "NW 85th St 2632, 98117 Seattle",
+coordinates: [
+-122.39191,
+47.69061,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG4767",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2DK628602"
+},
+{
+address: "Flora Ave S 6621, 98108 Seattle",
+coordinates: [
+-122.32018,
+47.54394,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 96,
+interior: "GOOD",
+name: "AXG4790",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4EK779331"
+},
+{
+address: "40th Ave SW 7342, 98136 Seattle",
+coordinates: [
+-122.38363,
+47.53628,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 51,
+interior: "GOOD",
+name: "ATS 2946",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4FK799824"
+},
+{
+address: "NE 67th St 887, 98115 Seattle",
+coordinates: [
+-122.31773,
+47.67726,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 30,
+interior: "GOOD",
+name: "AXG5033",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3DK656165"
+},
+{
+address: "4th Ave N 2605, 98109 Seattle",
+coordinates: [
+-122.34967,
+47.64316,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG4739",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5DK659505"
+},
+{
+address: "N 35th St 765, 98103 Seattle",
+coordinates: [
+-122.34891,
+47.65034,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 36,
+interior: "GOOD",
+name: "AXG4870",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7DK659845"
+},
+{
+address: "N 84th St 367, 98103 Seattle",
+coordinates: [
+-122.35347,
+47.68986,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 39,
+interior: "GOOD",
+name: "AXG5030",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1DK656732"
+},
+{
+address: "Dexter Ave N 2144, 98109 Seattle",
+coordinates: [
+-122.3437,
+47.63841,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATZ5054",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0FK790733"
+},
+{
+address: "N 92nd St 921, 98103 Seattle",
+coordinates: [
+-122.3467,
+47.69564,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 27,
+interior: "GOOD",
+name: "AXG5735",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2DK659087"
+},
+{
+address: "SW Kenyon St 2162, 98106 Seattle",
+coordinates: [
+-122.36136,
+47.53192,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 69,
+interior: "GOOD",
+name: "AXG4872",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5DK659813"
+},
+{
+address: "E Mercer St 1174, 98102 Seattle",
+coordinates: [
+-122.31698,
+47.62426,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 69,
+interior: "GOOD",
+name: "AVC6400",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1FK787081"
+},
+{
+address: "NE 120th St, 98125 Seattle",
+coordinates: [
+-122.31199,
+47.71582,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5053",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3DK659616"
+},
+{
+address: "1st Ave NE 4681, 98105 Seattle",
+coordinates: [
+-122.3283,
+47.6646,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 96,
+interior: "GOOD",
+name: "AWL4648",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9FK795008"
+},
+{
+address: "SW Stevens St 4966, 98116 Seattle",
+coordinates: [
+-122.39495,
+47.57764,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 90,
+interior: "GOOD",
+name: "AXG5774",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4EK778227"
+},
+{
+address: "Ashworth Ave N 8551, 98103 Seattle",
+coordinates: [
+-122.33918,
+47.69146,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 57,
+interior: "GOOD",
+name: "AWY0092",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6DK660386"
+},
+{
+address: "S Donovan St 920, 98108 Seattle",
+coordinates: [
+-122.32128,
+47.52559,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5610",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1EK785944"
+},
+{
+address: "W Galer St 111, 98119 Seattle",
+coordinates: [
+-122.35829,
+47.63229,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 78,
+interior: "GOOD",
+name: "AXG5763",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2FK787493"
+},
+{
+address: "Alki Ave SW 1081, 98116 Seattle",
+coordinates: [
+-122.38682,
+47.59509,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AWY0336",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9EK785920"
+},
+{
+address: "Roslyn Pl N 14373, 98133 Seattle",
+coordinates: [
+-122.34079,
+47.73367,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATZ5058",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4FK791223"
+},
+{
+address: "Alki Ave SW 3040, 98116 Seattle",
+coordinates: [
+-122.41711,
+47.57723,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AUK2227",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5EK784019"
+},
+{
+address: "S Orcas St 753, 98108 Seattle",
+coordinates: [
+-122.32374,
+47.5508,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AWY0046",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0DK656463"
+},
+{
+address: "S Edmunds St 2536, 98108 Seattle",
+coordinates: [
+-122.30093,
+47.55955,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 78,
+interior: "GOOD",
+name: "AWY0367",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1FK794225"
+},
+{
+address: "Canfield Pl N 5555, 98103 Seattle",
+coordinates: [
+-122.33594,
+47.66966,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 30,
+interior: "GOOD",
+name: "AXG4695",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7EK781820"
+},
+{
+address: "NE 81st St 455, 98115 Seattle",
+coordinates: [
+-122.32353,
+47.68749,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 54,
+interior: "GOOD",
+name: "ATS2907",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5FK799850"
+},
+{
+address: "Corliss Ave N 4537, 98103 Seattle",
+coordinates: [
+-122.3314,
+47.66186,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATZ5042",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8FK788454"
+},
+{
+address: "55th Ave NE 6596, 98115 Seattle",
+coordinates: [
+-122.26887,
+47.67756,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 33,
+interior: "GOOD",
+name: "AWX9211",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0DK658763"
+},
+{
+address: "29th Ave NE 6281, 98115 Seattle",
+coordinates: [
+-122.29641,
+47.67546,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 60,
+interior: "GOOD",
+name: "AXG4891",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7DK659201"
+},
+{
+address: "40th Ave NE 5630, 98105 Seattle",
+coordinates: [
+-122.2848,
+47.66973,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 90,
+interior: "GOOD",
+name: "AXG5759",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1FK792975"
+},
+{
+address: "Pasadena Pl NE, 98105 Seattle",
+coordinates: [
+-122.32197,
+47.6548,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AWY0081",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9EK782905"
+},
+{
+address: "Carleton Ave S 6423, 98108 Seattle",
+coordinates: [
+-122.32078,
+47.54564,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5676",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7DK656816"
+},
+{
+address: "Delridge Way SW 7996, 98106 Seattle",
+coordinates: [
+-122.36041,
+47.53073,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATS 2929",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4FK800213"
+},
+{
+address: "Martin Luther King Jr Way S 2122, 98144 Seattle",
+coordinates: [
+-122.29784,
+47.58434,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5054",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9DK655795"
+},
+{
+address: "Bonair Dr SW 2161, 98116 Seattle",
+coordinates: [
+-122.39858,
+47.58468,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG4705",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2DK655654"
+},
+{
+address: "11th Ave NE 5663, 98105 Seattle",
+coordinates: [
+-122.31637,
+47.67092,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG4720",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8EK782636"
+},
+{
+address: "42nd Ave SW 6377, 98136 Seattle",
+coordinates: [
+-122.3858,
+47.54547,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 57,
+interior: "GOOD",
+name: "AXG5772",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7EK778285"
+},
+{
+address: "W Olympic Pl 667, 98119 Seattle",
+coordinates: [
+-122.36674,
+47.62786,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 42,
+interior: "GOOD",
+name: "AXG5751",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5FK787729"
+},
+{
+address: "SW Trenton St 3565, 98126 Seattle",
+coordinates: [
+-122.37751,
+47.52467,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5753",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8FK788471"
+},
+{
+address: "NE 70th St 4844, 98115 Seattle",
+coordinates: [
+-122.2757,
+47.67948,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 90,
+interior: "GOOD",
+name: "AXG5642",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2DK654343"
+},
+{
+address: "N 73rd St 182, 98103 Seattle",
+coordinates: [
+-122.3566,
+47.68181,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 27,
+interior: "GOOD",
+name: "AXG5775",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1EK778136"
+},
+{
+address: "36th Ave NE 8080, 98115 Seattle",
+coordinates: [
+-122.28948,
+47.68811,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 78,
+interior: "GOOD",
+name: "AWY0343",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7EK780375"
+},
+{
+address: "30th Ave 1757, 98122 Seattle",
+coordinates: [
+-122.29359,
+47.61712,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 57,
+interior: "GOOD",
+name: "AXG5481",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7EK781560"
+},
+{
+address: "Aurora Ave N 12184, 98133 Seattle",
+coordinates: [
+-122.34362,
+47.71831,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 60,
+interior: "GOOD",
+name: "AXG5736",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5EK777295"
+},
+{
+address: "N 87th St 423, 98103 Seattle",
+coordinates: [
+-122.35363,
+47.69244,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 63,
+interior: "GOOD",
+name: "AXG5031",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8EK782653"
+},
+{
+address: "NE 75th St 4725, 98115 Seattle",
+coordinates: [
+-122.27727,
+47.68301,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 36,
+interior: "GOOD",
+name: "AXG5651",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7DK653964"
+},
+{
+address: "NE 113th St 4578, 98125 Seattle",
+coordinates: [
+-122.27871,
+47.71129,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5478",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXEK781844"
+},
+{
+address: "NW 54th St 2421, 98107 Seattle",
+coordinates: [
+-122.38782,
+47.66792,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 18,
+interior: "GOOD",
+name: "AWB6192",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7FK794200"
+},
+{
+address: "Bartlett Ave NE 11597, 98125 Seattle",
+coordinates: [
+-122.28368,
+47.71322,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AUK2221",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1EK782784"
+},
+{
+address: "NW 127th St 637, 98177 Seattle",
+coordinates: [
+-122.3641,
+47.72145,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 87,
+interior: "GOOD",
+name: "AWB6185",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9EK782192"
+},
+{
+address: "18th Ave SW 5175, 98106 Seattle",
+coordinates: [
+-122.35703,
+47.55592,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 57,
+interior: "GOOD",
+name: "AWY0066",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6EK781758"
+},
+{
+address: "3rd Ave W 1553, 98119 Seattle",
+coordinates: [
+-122.36101,
+47.63298,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AWY0090",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXFK790240"
+},
+{
+address: "Phinney Ave N 5156, 98103 Seattle",
+coordinates: [
+-122.35435,
+47.66614,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 96,
+interior: "GOOD",
+name: "ATZ5068",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4FK792517"
+},
+{
+address: "Pinehurst Way NE 11773, 98125 Seattle",
+coordinates: [
+-122.31184,
+47.71546,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5472",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6EK782358"
+},
+{
+address: "60th Ave NE 6345, 98115 Seattle",
+coordinates: [
+-122.26358,
+47.6746,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 42,
+interior: "GOOD",
+name: "ATZ5012",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5EK782027"
+},
+{
+address: "Bellevue Pl E 1015, 98102 Seattle",
+coordinates: [
+-122.32527,
+47.62738,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 90,
+interior: "GOOD",
+name: "AXG5619",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3EK782415"
+},
+{
+address: "Linden Ave N 10375, 98133 Seattle",
+coordinates: [
+-122.34735,
+47.70415,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 63,
+interior: "GOOD",
+name: "AXG4738",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3EK780227"
+},
+{
+address: "55th Ave SW 2465, 98116 Seattle",
+coordinates: [
+-122.40272,
+47.58038,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 27,
+interior: "GOOD",
+name: "AXG5061",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3EK785881"
+},
+{
+address: "37th Ave NE 7580, 98115 Seattle",
+coordinates: [
+-122.28835,
+47.68452,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 63,
+interior: "GOOD",
+name: "AXG4861",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5EK779242"
+},
+{
+address: "NE 65th St, 98115 Seattle",
+coordinates: [
+-122.26565,
+47.6758,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 81,
+interior: "GOOD",
+name: "AXG5754",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXFK794790"
+},
+{
+address: "Summit Ave E 769, 98102 Seattle",
+coordinates: [
+-122.32539,
+47.62602,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5762",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9FK792111"
+},
+{
+address: "E Harrison St 569, 98102 Seattle",
+coordinates: [
+-122.32437,
+47.62186,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 24,
+interior: "GOOD",
+name: "ATZ5080",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6FK795113"
+},
+{
+address: "SW Monroe St 3533, 98126 Seattle",
+coordinates: [
+-122.37707,
+47.53118,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AWX9206",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8EK779218"
+},
+{
+address: "N 41st St 663, 98103 Seattle",
+coordinates: [
+-122.35038,
+47.65664,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 33,
+interior: "GOOD",
+name: "AXG4708",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9EK783701"
+},
+{
+address: "NE 65th St 4077, 98115 Seattle",
+coordinates: [
+-122.28388,
+47.67575,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 63,
+interior: "GOOD",
+name: "AXG4771",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9DK656073"
+},
+{
+address: "SW Adams St 2862, 98126 Seattle",
+coordinates: [
+-122.36978,
+47.5662,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 54,
+interior: "GOOD",
+name: "ATZ5029",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6EK786278"
+},
+{
+address: "29th Ave SW 7581, 98126 Seattle",
+coordinates: [
+-122.36985,
+47.53408,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 36,
+interior: "GOOD",
+name: "ATZ5078",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4FK795028"
+},
+{
+address: "N 92nd St 121, 98103 Seattle",
+coordinates: [
+-122.35773,
+47.69602,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5777",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8EK778005"
+},
+{
+address: "S Frontenac St 5103, 98118 Seattle",
+coordinates: [
+-122.26981,
+47.53978,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 48,
+interior: "GOOD",
+name: "AXF4338",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXEK776370"
+},
+{
+address: "Federal Ave E 2345, 98102 Seattle",
+coordinates: [
+-122.31903,
+47.64036,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 51,
+interior: "GOOD",
+name: "AXF4374",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2EK778033"
+},
+{
+address: "22nd Ave S 2729, 98144 Seattle",
+coordinates: [
+-122.30432,
+47.57897,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXF4335",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4EK782696"
+},
+{
+address: "N 110th St 243, 98133 Seattle",
+coordinates: [
+-122.35625,
+47.70874,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATZ 5007",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5EK780973"
+},
+{
+address: "NE 50th St 3631, 98105 Seattle",
+coordinates: [
+-122.28855,
+47.66486,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 51,
+interior: "GOOD",
+name: "AXG5764",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7FK787246"
+},
+{
+address: "23rd Ave NE 8627, 98115 Seattle",
+coordinates: [
+-122.30427,
+47.69144,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 18,
+interior: "GOOD",
+name: "ATZ5098",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9FK787684"
+},
+{
+address: "Stone Ave N 12201, 98133 Seattle",
+coordinates: [
+-122.34282,
+47.7183,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATS2944",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1FK800041"
+},
+{
+address: "E Prospect St 1435, 98112 Seattle",
+coordinates: [
+-122.31382,
+47.62837,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG4762",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXDK659791"
+},
+{
+address: "25th Ave NE 11507, 98125 Seattle",
+coordinates: [
+-122.30187,
+47.7122,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 39,
+interior: "GOOD",
+name: "AXG4895",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9DK659149"
+},
+{
+address: "E Union St 2541, 98122 Seattle",
+coordinates: [
+-122.29959,
+47.61286,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 21,
+interior: "GOOD",
+name: "AXF4373",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3EK777277"
+},
+{
+address: "65th Ave NE 6260, 98115 Seattle",
+coordinates: [
+-122.25807,
+47.67434,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5749",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7FK788512"
+},
+{
+address: "NE 68th St 5466, 98115 Seattle",
+coordinates: [
+-122.26933,
+47.67764,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 63,
+interior: "GOOD",
+name: "ATZ5108",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5FK789500"
+},
+{
+address: "30th Ave SW 8829, 98126 Seattle",
+coordinates: [
+-122.37132,
+47.52418,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 30,
+interior: "GOOD",
+name: "ATZ5135",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8FK794500"
+},
+{
+address: "36th Ave NE 7743, 98115 Seattle",
+coordinates: [
+-122.28949,
+47.68562,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 87,
+interior: "GOOD",
+name: "ATZ5031",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9FK787779"
+},
+{
+address: "20th Ave SW 9481, 98106 Seattle",
+coordinates: [
+-122.35919,
+47.51772,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AUK2206",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0FK787749"
+},
+{
+address: "34th Ave NE 6591, 98115 Seattle",
+coordinates: [
+-122.29166,
+47.67746,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 93,
+interior: "GOOD",
+name: "AXG4777",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1FK787615"
+},
+{
+address: "48th Ave S 4588, 98118 Seattle",
+coordinates: [
+-122.2732,
+47.5619,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AWY0338",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1EK784891"
+},
+{
+address: "10th Ave E 2356, 98102 Seattle",
+coordinates: [
+-122.32002,
+47.64069,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 18,
+interior: "GOOD",
+name: "AXG4710",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8EK779140"
+},
+{
+address: "49th Ave SW 3421, 98116 Seattle",
+coordinates: [
+-122.39479,
+47.57354,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 90,
+interior: "GOOD",
+name: "AXG5050",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1DK659940"
+},
+{
+address: "W Garfield St 144, 98119 Seattle",
+coordinates: [
+-122.35892,
+47.63355,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AUK2220",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7EK782174"
+},
+{
+address: "7th Ave NW 10031, 98177 Seattle",
+coordinates: [
+-122.36404,
+47.70266,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG4888",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4DK659270"
+},
+{
+address: "Linden Ave N 9417, 98103 Seattle",
+coordinates: [
+-122.34731,
+47.69704,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 39,
+interior: "GOOD",
+name: "AXS3725",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2FK794735"
+},
+{
+address: "E Highland Dr 2421, 98112 Seattle",
+coordinates: [
+-122.30138,
+47.63025,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 57,
+interior: "GOOD",
+name: "AXF4342",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXEK781875"
+},
+{
+address: "28th Ave NW 7767, 98117 Seattle",
+coordinates: [
+-122.39311,
+47.68619,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 96,
+interior: "GOOD",
+name: "AXG4717",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9EK780488"
+},
+{
+address: "20th Ave NE 5671, 98105 Seattle",
+coordinates: [
+-122.30651,
+47.67033,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 63,
+interior: "GOOD",
+name: "AWY0350",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3EK783368"
+},
+{
+address: "12th Ave NE 4374, 98105 Seattle",
+coordinates: [
+-122.31541,
+47.66094,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 21,
+interior: "GOOD",
+name: "AXG5778",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8EK777968"
+},
+{
+address: "2nd Ave NW 6219, 98107 Seattle",
+coordinates: [
+-122.35945,
+47.67469,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 72,
+interior: "GOOD",
+name: "AWY0341",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8EK781633"
+},
+{
+address: "2nd Ave NE 6525, 98115 Seattle",
+coordinates: [
+-122.32736,
+47.67672,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 81,
+interior: "GOOD",
+name: "AXG4896",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1EK780730"
+},
+{
+address: "Alki Ave SW 2475, 98116 Seattle",
+coordinates: [
+-122.40463,
+47.58146,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 27,
+interior: "GOOD",
+name: "AXG5635",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9DK654078"
+},
+{
+address: "Carleton Ave S 6639, 98108 Seattle",
+coordinates: [
+-122.32135,
+47.54386,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AWY0063",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0DK629165"
+},
+{
+address: "14th Ave NW 7337, 98117 Seattle",
+coordinates: [
+-122.37365,
+47.68211,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 63,
+interior: "GOOD",
+name: "AXG5634",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0DK654003"
+},
+{
+address: "Woodlawn Ave N 4439, 98103 Seattle",
+coordinates: [
+-122.3386,
+47.6611,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 12,
+interior: "GOOD",
+name: "AXG5663",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0DK655975"
+},
+{
+address: "2nd Ave NW 3673, 98107 Seattle",
+coordinates: [
+-122.35901,
+47.65392,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 60,
+interior: "GOOD",
+name: "AXG5666",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0DK656138"
+},
+{
+address: "NE 127th St 2213, 98125 Seattle",
+coordinates: [
+-122.30422,
+47.7212,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5668",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0DK656253"
+},
+{
+address: "Stone Ave N 8816, 98103 Seattle",
+coordinates: [
+-122.34128,
+47.69265,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5499",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0DK657757"
+},
+{
+address: "Meridian Ave N 13476, 98133 Seattle",
+coordinates: [
+-122.33415,
+47.72662,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5492",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0DK658844"
+},
+{
+address: "NE 69th St 1162, 98115 Seattle",
+coordinates: [
+-122.31601,
+47.67874,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 57,
+interior: "GOOD",
+name: "AXG4728",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1DK629319"
+},
+{
+address: "E Thomas St 858, 98102 Seattle",
+coordinates: [
+-122.32142,
+47.62107,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 36,
+interior: "GOOD",
+name: "AXG5639",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1DK654236"
+},
+{
+address: "14th Ave SW 9428, 98106 Seattle",
+coordinates: [
+-122.35283,
+47.51867,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 51,
+interior: "GOOD",
+name: "AXG5660",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1DK655855"
+},
+{
+address: "30th Ave 767, 98122 Seattle",
+coordinates: [
+-122.29373,
+47.60879,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 45,
+interior: "GOOD",
+name: "AXG5665",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1DK655998"
+},
+{
+address: "S Charles St, 98144 Seattle",
+coordinates: [
+-122.31141,
+47.59403,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5602",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1DK657301"
+},
+{
+address: "13th Ave NW 7351, 98117 Seattle",
+coordinates: [
+-122.37261,
+47.68238,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG4894",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1DK659159"
+},
+{
+address: "S Orcas St 5112, 98118 Seattle",
+coordinates: [
+-122.26959,
+47.55112,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 60,
+interior: "GOOD",
+name: "AXG4887",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1DK659291"
+},
+{
+address: "N Bowdoin Pl, 98103 Seattle",
+coordinates: [
+-122.35393,
+47.65466,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 21,
+interior: "GOOD",
+name: "AXG4875",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1DK659484"
+},
+{
+address: "Francis Ave N 4379, 98103 Seattle",
+coordinates: [
+-122.35337,
+47.65998,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 24,
+interior: "GOOD",
+name: "ATZ5667",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXFK794580"
+},
+{
+address: "NE 58th St 323, 98105 Seattle",
+coordinates: [
+-122.32522,
+47.67079,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 66,
+interior: "GOOD",
+name: "AXG5648",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2DK655010"
+},
+{
+address: "S Atlantic St 1266, 98144 Seattle",
+coordinates: [
+-122.31638,
+47.59003,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 87,
+interior: "GOOD",
+name: "AXG5673",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2DK656626"
+},
+{
+address: "NE 65th St 4980, 98115 Seattle",
+coordinates: [
+-122.27464,
+47.6758,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 27,
+interior: "GOOD",
+name: "AXG4867",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2DK660000"
+},
+{
+address: "31st Ave W 3080, 98199 Seattle",
+coordinates: [
+-122.39687,
+47.64834,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 96,
+interior: "GOOD",
+name: "AXG5658",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3DK655825"
+},
+{
+address: "40th Ave NE 6510, 98115 Seattle",
+coordinates: [
+-122.28489,
+47.67603,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5662",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3DK655954"
+},
+{
+address: "Sand Point Way NE 7126, 98115 Seattle",
+coordinates: [
+-122.26358,
+47.68028,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG4892",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3DK659177"
+},
+{
+address: "21st Ave 1195, 98122 Seattle",
+coordinates: [
+-122.30498,
+47.61174,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5654",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4DK655641"
+},
+{
+address: "38th Ave W 3641, 98199 Seattle",
+coordinates: [
+-122.40579,
+47.65276,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 39,
+interior: "GOOD",
+name: "AXF4358",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4DK657535"
+},
+{
+address: "Hughes Ave SW 2417, 98116 Seattle",
+coordinates: [
+-122.39964,
+47.58234,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG4707",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7DK659540"
+},
+{
+address: "41st Ave SW 2106, 98116 Seattle",
+coordinates: [
+-122.38368,
+47.58524,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 54,
+interior: "GOOD",
+name: "AXG4869",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4DK659933"
+},
+{
+address: "36th Ave 647, 98122 Seattle",
+coordinates: [
+-122.28721,
+47.60762,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 60,
+interior: "GOOD",
+name: "AXF4357",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5DK628903"
+},
+{
+address: "29th Ave S 1719, 98144 Seattle",
+coordinates: [
+-122.29494,
+47.58785,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 60,
+interior: "GOOD",
+name: "AXG5029",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5DK656832"
+},
+{
+address: "25th Ave W 3285, 98199 Seattle",
+coordinates: [
+-122.38868,
+47.65008,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 63,
+interior: "GOOD",
+name: "AXF4356",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5DK657589"
+},
+{
+address: "W Dravus St 2077, 98199 Seattle",
+coordinates: [
+-122.38311,
+47.64841,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 54,
+interior: "GOOD",
+name: "AXG4773",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5DK658838"
+},
+{
+address: "Stone Ave N 9627, 98103 Seattle",
+coordinates: [
+-122.34189,
+47.69882,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 78,
+interior: "GOOD",
+name: "AXG5670",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6DK656371"
+},
+{
+address: "34th Ave S 2013, 98144 Seattle",
+coordinates: [
+-122.28982,
+47.5843,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 66,
+interior: "GOOD",
+name: "AXF4360",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7DK629082"
+},
+{
+address: "NE 89th St 3513, 98115 Seattle",
+coordinates: [
+-122.29032,
+47.69305,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 36,
+interior: "GOOD",
+name: "AXG5656",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7DK655729"
+},
+{
+address: "17th Ave S 5245, 98108 Seattle",
+coordinates: [
+-122.31056,
+47.55522,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 84,
+interior: "GOOD",
+name: "AXG5681",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7DK657013"
+},
+{
+address: "46th Ave S 5135, 98118 Seattle",
+coordinates: [
+-122.27544,
+47.55587,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5600",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7DK657724"
+},
+{
+address: "20th Ave 821, 98122 Seattle",
+coordinates: [
+-122.30638,
+47.60982,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 18,
+interior: "GOOD",
+name: "AXG5493",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7DK658811"
+},
+{
+address: "Lake Washington Blvd S 1732, 98144 Seattle",
+coordinates: [
+-122.28968,
+47.58704,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 60,
+interior: "GOOD",
+name: "AXG4866",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7DK660011"
+},
+{
+address: "Linden Ave N 14171, 98133 Seattle",
+coordinates: [
+-122.34784,
+47.73196,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 48,
+interior: "GOOD",
+name: "AXG5497",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8DK658719"
+},
+{
+address: "Elm Pl SW 1139, 98116 Seattle",
+coordinates: [
+-122.38398,
+47.59327,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 36,
+interior: "GOOD",
+name: "AWY0333",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8DK658901"
+},
+{
+address: "Seaview Ave NW 6414, 98107 Seattle",
+coordinates: [
+-122.40628,
+47.67528,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 30,
+interior: "GOOD",
+name: "AXG4795",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8DK659319"
+},
+{
+address: "University Way NE 5293, 98105 Seattle",
+coordinates: [
+-122.313,
+47.66841,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 60,
+interior: "GOOD",
+name: "AWX9242",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8DK659367"
+},
+{
+address: "Fremont Ave N 9517, 98103 Seattle",
+coordinates: [
+-122.34998,
+47.69798,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXF4364",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8DK659692"
+},
+{
+address: "36th Ave E 151, 98112 Seattle",
+coordinates: [
+-122.2869,
+47.61964,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 87,
+interior: "GOOD",
+name: "AXG5647",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9DK654906"
+},
+{
+address: "42nd Ave SW 8891, 98136 Seattle",
+coordinates: [
+-122.38727,
+47.52269,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG4764",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9DK658907"
+},
+{
+address: "Greenwood Ave N 4233, 98103 Seattle",
+coordinates: [
+-122.35551,
+47.65817,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5488",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9DK659006"
+},
+{
+address: "University Way NE 5582, 98105 Seattle",
+coordinates: [
+-122.31295,
+47.6693,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 96,
+interior: "GOOD",
+name: "AXF4367",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXDK630291"
+},
+{
+address: "W Nickerson St 1250, 98119 Seattle",
+coordinates: [
+-122.3727,
+47.65567,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 18,
+interior: "GOOD",
+name: "AXF4368",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXDK630629"
+},
+{
+address: "20th Ave NE 8263, 98115 Seattle",
+coordinates: [
+-122.30681,
+47.68965,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5637",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXDK654137"
+},
+{
+address: "35th Ave NE 6532, 98115 Seattle",
+coordinates: [
+-122.29026,
+47.67639,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXF4369",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXDK660584"
+},
+{
+address: "6th Ave W 2159, 98119 Seattle",
+coordinates: [
+-122.36506,
+47.63886,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATZ5013",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1EK782039"
+},
+{
+address: "50th Ave S 4975, 98118 Seattle",
+coordinates: [
+-122.27077,
+47.55735,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 60,
+interior: "GOOD",
+name: "AUK2210",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6FK789294"
+},
+{
+address: "23rd Ave NE 6554, 98115 Seattle",
+coordinates: [
+-122.30273,
+47.6768,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 78,
+interior: "GOOD",
+name: "AWB6190",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8FK790706"
+},
+{
+address: "20th Ave SW 3891, 98106 Seattle",
+coordinates: [
+-122.35903,
+47.56932,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATS2922",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8FK799969"
+},
+{
+address: "24th Ave W 2900, 98199 Seattle",
+coordinates: [
+-122.38758,
+47.64565,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 48,
+interior: "GOOD",
+name: "AXG4797",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8FK794125"
+},
+{
+address: "4th Ave NW 6287, 98107 Seattle",
+coordinates: [
+-122.36192,
+47.67579,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 18,
+interior: "GOOD",
+name: "AXG4796",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7DK656525"
+},
+{
+address: "42nd Ave W 3065, 98199 Seattle",
+coordinates: [
+-122.4108,
+47.64802,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 63,
+interior: "GOOD",
+name: "AWB6193",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0FK794863"
+},
+{
+address: "12th Ave NE 10054, 98125 Seattle",
+coordinates: [
+-122.31491,
+47.70177,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 42,
+interior: "GOOD",
+name: "AUK2233",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXFK794515"
+},
+{
+address: "Stone Ave N 9417, 98103 Seattle",
+coordinates: [
+-122.34196,
+47.69719,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 51,
+interior: "GOOD",
+name: "AXG4798",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3EK782804"
+},
+{
+address: "Lake Washington Blvd S 1715, 98144 Seattle",
+coordinates: [
+-122.28939,
+47.58742,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 24,
+interior: "GOOD",
+name: "AXG5055",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4FK794610"
+},
+{
+address: "Pinehurst Way NE 12013, 98125 Seattle",
+coordinates: [
+-122.31143,
+47.716,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 51,
+interior: "GOOD",
+name: "AXG5640",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2DK654259"
+},
+{
+address: "32nd Ave W, 98199 Seattle",
+coordinates: [
+-122.3989,
+47.63279,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATZ5074",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1FK793172"
+},
+{
+address: "49th Ave NE 9172, 98115 Seattle",
+coordinates: [
+-122.27398,
+47.69486,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 60,
+interior: "GOOD",
+name: "ATZ5104",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5FK789321"
+},
+{
+address: "Greenwood Ave N 13082, 98133 Seattle",
+coordinates: [
+-122.35527,
+47.72491,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 51,
+interior: "GOOD",
+name: "AUK2209",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4FK787513"
+},
+{
+address: "49th Ave NE 9217, 98115 Seattle",
+coordinates: [
+-122.27445,
+47.69509,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5745",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2FK789552"
+},
+{
+address: "NW 87th St 1983, 98117 Seattle",
+coordinates: [
+-122.38154,
+47.69238,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 78,
+interior: "GOOD",
+name: "AXG4732",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0EK782730"
+},
+{
+address: "18th Ave NW 7787, 98117 Seattle",
+coordinates: [
+-122.38007,
+47.68667,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 87,
+interior: "GOOD",
+name: "AWB6186",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7FK794150"
+},
+{
+address: "NW 117th St 267, 98177 Seattle",
+coordinates: [
+-122.36042,
+47.71417,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 96,
+interior: "GOOD",
+name: "AWY0062",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0EK780878"
+},
+{
+address: "Taylor Ave N 1911, 98109 Seattle",
+coordinates: [
+-122.34598,
+47.63615,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 60,
+interior: "GOOD",
+name: "AXG5025",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6EK781520"
+},
+{
+address: "S Bangor St 5580, 98178 Seattle",
+coordinates: [
+-122.26336,
+47.50618,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG4718",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6EK781744"
+},
+{
+address: "NE 117th St 2678, 98125 Seattle",
+coordinates: [
+-122.29922,
+47.71432,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 69,
+interior: "GOOD",
+name: "AXG5781",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1EK777729"
+},
+{
+address: "37th Ave NE 8089, 98115 Seattle",
+coordinates: [
+-122.28859,
+47.68825,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5057",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXFK794675"
+},
+{
+address: "33rd Ave S 6535, 98118 Seattle",
+coordinates: [
+-122.29043,
+47.54371,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 66,
+interior: "GOOD",
+name: "AXG5769",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6EK778424"
+},
+{
+address: "Alki Ave SW 3171, 98116 Seattle",
+coordinates: [
+-122.41908,
+47.57615,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 96,
+interior: "GOOD",
+name: "ATZ5004",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2EK780543"
+},
+{
+address: "1st Ave N 1659, 98109 Seattle",
+coordinates: [
+-122.35562,
+47.63423,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 81,
+interior: "GOOD",
+name: "AUK2219",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXEK780113"
+},
+{
+address: "1st Ave W 1643, 98119 Seattle",
+coordinates: [
+-122.35829,
+47.63409,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AWY0324",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9DK657319"
+},
+{
+address: "Franklin Ave E 2239, 98102 Seattle",
+coordinates: [
+-122.32469,
+47.63886,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 42,
+interior: "GOOD",
+name: "ATZ5030",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4FK787754"
+},
+{
+address: "NW 59th St 1514, 98107 Seattle",
+coordinates: [
+-122.37693,
+47.67166,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 33,
+interior: "GOOD",
+name: "AXF4351",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1FK792412"
+},
+{
+address: "Riviera Pl NE 11326, 98125 Seattle",
+coordinates: [
+-122.27681,
+47.71206,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATS 2913",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4FK799709"
+},
+{
+address: "60th Ave NE 6385, 98115 Seattle",
+coordinates: [
+-122.26364,
+47.67489,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AWY0085",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6EK785194"
+},
+{
+address: "SW Stevens St 4544, 98116 Seattle",
+coordinates: [
+-122.38996,
+47.57752,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 36,
+interior: "GOOD",
+name: "AUK2203",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0FK788593"
+},
+{
+address: "Roosevelt Way NE 9553, 98115 Seattle",
+coordinates: [
+-122.31769,
+47.69817,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 60,
+interior: "GOOD",
+name: "ATZ5001",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXEK779642"
+},
+{
+address: "S Warsaw St 4880, 98118 Seattle",
+coordinates: [
+-122.27221,
+47.54352,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 42,
+interior: "GOOD",
+name: "AWY0078",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4FK787589"
+},
+{
+address: "4th Ave NW 10701, 98177 Seattle",
+coordinates: [
+-122.36191,
+47.70687,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 72,
+interior: "GOOD",
+name: "ATZ5021",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3EK783984"
+},
+{
+address: "51st Ave SW 4007, 98116 Seattle",
+coordinates: [
+-122.39752,
+47.56839,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 42,
+interior: "GOOD",
+name: "ATZ5055",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7FK790793"
+},
+{
+address: "NE 123rd St 2011, 98125 Seattle",
+coordinates: [
+-122.30707,
+47.7175,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 36,
+interior: "GOOD",
+name: "AWL4649",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7FK795203"
+},
+{
+address: "SW Monroe St 3552, 98126 Seattle",
+coordinates: [
+-122.37733,
+47.5313,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 84,
+interior: "GOOD",
+name: "AWY0053",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3EK783001"
+},
+{
+address: "W Commodore Way 3098, 98199 Seattle",
+coordinates: [
+-122.39684,
+47.66366,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 78,
+interior: "GOOD",
+name: "ATZ5034",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5FK787844"
+},
+{
+address: "SW Hanford St 4358, 98116 Seattle",
+coordinates: [
+-122.38751,
+47.57568,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 96,
+interior: "GOOD",
+name: "AXG5633",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2DK654035"
+},
+{
+address: "7th Ave S 4338, 98108 Seattle",
+coordinates: [
+-122.32391,
+47.56438,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 48,
+interior: "GOOD",
+name: "ATZ5067",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6FK792454"
+},
+{
+address: "24th Ave 1673, 98122 Seattle",
+coordinates: [
+-122.30143,
+47.61618,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 45,
+interior: "GOOD",
+name: "ATS2902",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2FK800100"
+},
+{
+address: "21st Ave W 3267, 98199 Seattle",
+coordinates: [
+-122.38344,
+47.64975,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AWY0326",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7DK658789"
+},
+{
+address: "Mary Ave NW 7059, 98117 Seattle",
+coordinates: [
+-122.3758,
+47.68067,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5653",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXDK655613"
+},
+{
+address: "N 35th St 443, 98103 Seattle",
+coordinates: [
+-122.35308,
+47.65107,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 81,
+interior: "GOOD",
+name: "ATZ5093",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3FK787518"
+},
+{
+address: "Bonair Dr SW 2157, 98116 Seattle",
+coordinates: [
+-122.39851,
+47.58477,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 69,
+interior: "GOOD",
+name: "ATZ5122",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXFK790514"
+},
+{
+address: "NW Ione Pl 1974, 98107 Seattle",
+coordinates: [
+-122.38144,
+47.66521,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 93,
+interior: "GOOD",
+name: "AXG5496",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0DK658729"
+},
+{
+address: "SW Admiral Way 5326, 98116 Seattle",
+coordinates: [
+-122.40103,
+47.57869,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 57,
+interior: "GOOD",
+name: "AXF4359",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3DK655677"
+},
+{
+address: "14th Ave NE 7559, 98115 Seattle",
+coordinates: [
+-122.31327,
+47.68413,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 90,
+interior: "GOOD",
+name: "ATZ5040",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0FK788402"
+},
+{
+address: "N 104th St 385, 98133 Seattle",
+coordinates: [
+-122.3543,
+47.70431,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 69,
+interior: "GOOD",
+name: "AXG4886",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1EK780758"
+},
+{
+address: "NW 56th St 3066, 98107 Seattle",
+coordinates: [
+-122.3974,
+47.66948,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 60,
+interior: "GOOD",
+name: "ATZ5132",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4FK794235"
+},
+{
+address: "Seaview Ave NW 6829, 98117 Seattle",
+coordinates: [
+-122.40497,
+47.67994,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATZ5046",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8FK788647"
+},
+{
+address: "Durland Pl NE 11343, 98125 Seattle",
+coordinates: [
+-122.27952,
+47.71162,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AUK2235",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8FK794836"
+},
+{
+address: "37th Ave NE 12674, 98125 Seattle",
+coordinates: [
+-122.28851,
+47.72144,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATZ5017",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1EK782851"
+},
+{
+address: "SW Myrtle St 2633, 98106 Seattle",
+coordinates: [
+-122.36691,
+47.53914,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 9,
+interior: "GOOD",
+name: "ATZ5095",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6FK787528"
+},
+{
+address: "18th Ave SW 5683, 98106 Seattle",
+coordinates: [
+-122.35712,
+47.55168,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG4763",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXDK658690"
+},
+{
+address: "S Dearborn St 3415, 98144 Seattle",
+coordinates: [
+-122.28883,
+47.59572,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 54,
+interior: "GOOD",
+name: "AXG5636",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5DK654112"
+},
+{
+address: "27th Ave W 3089, 98199 Seattle",
+coordinates: [
+-122.39159,
+47.64848,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 39,
+interior: "GOOD",
+name: "AWY0353",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4EK785002"
+},
+{
+address: "S Trenton St 1419, 98108 Seattle",
+coordinates: [
+-122.31444,
+47.52469,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 63,
+interior: "GOOD",
+name: "AXG4726",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6DK659335"
+},
+{
+address: "S Dawson St 2555, 98108 Seattle",
+coordinates: [
+-122.29971,
+47.55613,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5757",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3FK794260"
+},
+{
+address: "12th Ave W 2455, 98119 Seattle",
+coordinates: [
+-122.37267,
+47.64101,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 87,
+interior: "GOOD",
+name: "AXF4362",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8DK656789"
+},
+{
+address: "Delridge Way SW 7960, 98106 Seattle",
+coordinates: [
+-122.36036,
+47.53096,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATZ5033",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9FK787832"
+},
+{
+address: "29th Ave S 2217, 98144 Seattle",
+coordinates: [
+-122.29511,
+47.58352,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AWY0329",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9DK660267"
+},
+{
+address: "N 90th St 217, 98103 Seattle",
+coordinates: [
+-122.35645,
+47.6942,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 36,
+interior: "GOOD",
+name: "AXG5045",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8EK783916"
+},
+{
+address: "28th Ave W 3508, 98199 Seattle",
+coordinates: [
+-122.39284,
+47.65171,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 63,
+interior: "GOOD",
+name: "ATS2901",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5FK799735"
+},
+{
+address: "10th Ave E 2413, 98102 Seattle",
+coordinates: [
+-122.32016,
+47.64156,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 30,
+interior: "GOOD",
+name: "AWY0059",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9EK780586"
+},
+{
+address: "Newton St 569, 98109 Seattle",
+coordinates: [
+-122.3463,
+47.63656,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 18,
+interior: "GOOD",
+name: "AXG5046",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4EK780320"
+},
+{
+address: "12th Ave S 1205, 98144 Seattle",
+coordinates: [
+-122.31736,
+47.59282,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 69,
+interior: "GOOD",
+name: "ATS 2917",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2FK799840"
+},
+{
+address: "1st Ave S 4120, 98134 Seattle",
+coordinates: [
+-122.33404,
+47.56687,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 57,
+interior: "GOOD",
+name: "ATZ5059",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4FK791268"
+},
+{
+address: "41st Ave SW 8479, 98136 Seattle",
+coordinates: [
+-122.3839,
+47.52702,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 45,
+interior: "GOOD",
+name: "ATZ5115",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7FK790048"
+},
+{
+address: "Delridge Way SW 6023, 98106 Seattle",
+coordinates: [
+-122.36317,
+47.54796,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5785",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8EK777307"
+},
+{
+address: "Crestwood Dr S 10845, 98178 Seattle",
+coordinates: [
+-122.24402,
+47.50503,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AWB6195",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8FK793119"
+},
+{
+address: "23rd Ave W 3221, 98199 Seattle",
+coordinates: [
+-122.38598,
+47.64886,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 60,
+interior: "GOOD",
+name: "ATZ5088",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9FK787281"
+},
+{
+address: "Carleton Ave S 6419, 98108 Seattle",
+coordinates: [
+-122.3208,
+47.54566,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATZ5101",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7FK790714"
+},
+{
+address: "Taylor Ave N 1208, 98109 Seattle",
+coordinates: [
+-122.34614,
+47.6299,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 60,
+interior: "GOOD",
+name: "AUK2216",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8FK787286"
+},
+{
+address: "N 73rd St 351, 98103 Seattle",
+coordinates: [
+-122.354,
+47.68179,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 90,
+interior: "GOOD",
+name: "AXG4780",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7EK784166"
+},
+{
+address: "35th Ave NE 14377, 98125 Seattle",
+coordinates: [
+-122.29114,
+47.73335,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 63,
+interior: "GOOD",
+name: "AWY0067",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXEK781973"
+},
+{
+address: "5th Ave SW 8432, 98106 Seattle",
+coordinates: [
+-122.34157,
+47.52749,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 36,
+interior: "GOOD",
+name: "ATS 2906",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1FK800055"
+},
+{
+address: "E Union St 3779, 98122 Seattle",
+coordinates: [
+-122.28511,
+47.61276,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 81,
+interior: "GOOD",
+name: "ATZ5073",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2FK793018"
+},
+{
+address: "36th Ave NE 10307, 98125 Seattle",
+coordinates: [
+-122.28943,
+47.70313,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 84,
+interior: "GOOD",
+name: "ATZ5668",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9FK794585"
+},
+{
+address: "45th Ave SW 1635, 98116 Seattle",
+coordinates: [
+-122.38902,
+47.58893,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AUK2208",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXFK788438"
+},
+{
+address: "W Plymouth St 2334, 98199 Seattle",
+coordinates: [
+-122.38777,
+47.63629,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 42,
+interior: "GOOD",
+name: "ATZ5089",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0FK787296"
+},
+{
+address: "55th Ave SW 2449, 98116 Seattle",
+coordinates: [
+-122.40263,
+47.58072,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 96,
+interior: "GOOD",
+name: "AXG5032",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9DK659314"
+},
+{
+address: "S Ryan St 6341, 98178 Seattle",
+coordinates: [
+-122.25423,
+47.50974,
+0
+],
+engineType: "CE",
+exterior: "UNACCEPTABLE",
+fuel: 39,
+interior: "UNACCEPTABLE",
+name: "AXG5482",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0EK781268"
+},
+{
+address: "25th Ave NE 13747, 98125 Seattle",
+coordinates: [
+-122.30206,
+47.72916,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5037",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2EK786763"
+},
+{
+address: "N 122nd St 371, 98133 Seattle",
+coordinates: [
+-122.35457,
+47.71775,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 84,
+interior: "GOOD",
+name: "AWY0050",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1EK785068"
+},
+{
+address: "Flora Ave S 6531, 98108 Seattle",
+coordinates: [
+-122.31993,
+47.54467,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATS 2910",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXFK799925"
+},
+{
+address: "E Howell St 1710, 98122 Seattle",
+coordinates: [
+-122.31001,
+47.61761,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 51,
+interior: "GOOD",
+name: "AUK2205",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0FK787668"
+},
+{
+address: "5th Ave W 947, 98119 Seattle",
+coordinates: [
+-122.36321,
+47.62716,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 66,
+interior: "GOOD",
+name: "AUK2211",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4FK789164"
+},
+{
+address: "Phinney Ave N 14455, 98133 Seattle",
+coordinates: [
+-122.35422,
+47.73376,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATZ5105",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2FK789356"
+},
+{
+address: "30th Ave SW 5489, 98126 Seattle",
+coordinates: [
+-122.37096,
+47.55213,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 87,
+interior: "GOOD",
+name: "ATZ5076",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1FK793205"
+},
+{
+address: "2nd Ave S 4267, 98134 Seattle",
+coordinates: [
+-122.33213,
+47.56471,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 21,
+interior: "GOOD",
+name: "ATZ5109",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXFK789511"
+},
+{
+address: "14th Ave NE 11073, 98125 Seattle",
+coordinates: [
+-122.3138,
+47.70989,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AWB6246",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8FK789393"
+},
+{
+address: "25th Ave W 3275, 98199 Seattle",
+coordinates: [
+-122.38858,
+47.64987,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 30,
+interior: "GOOD",
+name: "AXF4371",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6EK777452"
+},
+{
+address: "42nd Ave NE 8221, 98115 Seattle",
+coordinates: [
+-122.28332,
+47.68879,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 90,
+interior: "GOOD",
+name: "AXG5477",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4EK782049"
+},
+{
+address: "E Marginal Way S 5880, 98134 Seattle",
+coordinates: [
+-122.33504,
+47.55047,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG4727",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6DK657553"
+},
+{
+address: "39th Ave NE 7562, 98115 Seattle",
+coordinates: [
+-122.28623,
+47.68417,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 48,
+interior: "GOOD",
+name: "AWY0073",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2FK790054"
+},
+{
+address: "N 46th St 2145, 98103 Seattle",
+coordinates: [
+-122.33317,
+47.66261,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 81,
+interior: "GOOD",
+name: "AWY0330",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7DK656508"
+},
+{
+address: "N 45th St 1432, 98103 Seattle",
+coordinates: [
+-122.34015,
+47.66147,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 15,
+interior: "GOOD",
+name: "AXG5671",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4DK654957"
+},
+{
+address: "31st Ave NW 9177, 98117 Seattle",
+coordinates: [
+-122.39696,
+47.69583,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5613",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4EK784397"
+},
+{
+address: "Dayton Ave N 4329, 98103 Seattle",
+coordinates: [
+-122.35214,
+47.65934,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 60,
+interior: "GOOD",
+name: "AUK2218",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5EK782304"
+},
+{
+address: "Broadway E 565, 98102 Seattle",
+coordinates: [
+-122.32103,
+47.62387,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 84,
+interior: "GOOD",
+name: "AXG4730",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4EK783606"
+},
+{
+address: "Linden Ave N 6329, 98103 Seattle",
+coordinates: [
+-122.34843,
+47.67481,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 57,
+interior: "GOOD",
+name: "ATZ5111",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5FK789562"
+},
+{
+address: "Cloverdale Pl S 5112, 98118 Seattle",
+coordinates: [
+-122.26949,
+47.5266,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXF4345",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2EK777545"
+},
+{
+address: "SW 100th St 4364, 98146 Seattle",
+coordinates: [
+-122.38818,
+47.51383,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 60,
+interior: "GOOD",
+name: "ATZ5140",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8FK794805"
+},
+{
+address: "26th Ave 955, 98122 Seattle",
+coordinates: [
+-122.29889,
+47.61086,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATZ5087",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6FK787271"
+},
+{
+address: "10th Ave E 2358, 98102 Seattle",
+coordinates: [
+-122.32,
+47.64073,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 27,
+interior: "GOOD",
+name: "ATZ5097",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6FK787562"
+},
+{
+address: "Meridian Ave N 10720, 98133 Seattle",
+coordinates: [
+-122.33388,
+47.70732,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 48,
+interior: "GOOD",
+name: "AXG5650",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0DK655247"
+},
+{
+address: "NE 51st St 185, 98105 Seattle",
+coordinates: [
+-122.32597,
+47.66572,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5783",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4EK777420"
+},
+{
+address: "21st Ave NE 7351, 98115 Seattle",
+coordinates: [
+-122.30531,
+47.68221,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 69,
+interior: "GOOD",
+name: "AUK2231",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7EK784135"
+},
+{
+address: "NE 58th St 389, 98105 Seattle",
+coordinates: [
+-122.3243,
+47.67085,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 54,
+interior: "GOOD",
+name: "AXG4731",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0EK779584"
+},
+{
+address: "Lake City Way NE 10564, 98125 Seattle",
+coordinates: [
+-122.30153,
+47.70591,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 63,
+interior: "GOOD",
+name: "ATZ5049",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9FK788687"
+},
+{
+address: "SW Kenyon St 3433, 98126 Seattle",
+coordinates: [
+-122.37568,
+47.53191,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG4857",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9EK780135"
+},
+{
+address: "51st Ave S 10075, 98178 Seattle",
+coordinates: [
+-122.27014,
+47.51056,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5059",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8EK783947"
+},
+{
+address: "Sand Point Way NE 7799, 98115 Seattle",
+coordinates: [
+-122.26506,
+47.68603,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 51,
+interior: "GOOD",
+name: "AXS3726",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3FK794355"
+},
+{
+address: "24th Ave SW 9257, 98106 Seattle",
+coordinates: [
+-122.36325,
+47.51998,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 42,
+interior: "GOOD",
+name: "ATS2945",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8FK800117"
+},
+{
+address: "2nd Ave SW, 98106 Seattle",
+coordinates: [
+-122.33682,
+47.51939,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 96,
+interior: "GOOD",
+name: "AXG5486",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2DK659039"
+},
+{
+address: "14th Ave NW 6012, 98107 Seattle",
+coordinates: [
+-122.37347,
+47.67252,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 27,
+interior: "GOOD",
+name: "ATZ5112",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8FK789572"
+},
+{
+address: "27th Ave W 3217, 98199 Seattle",
+coordinates: [
+-122.39154,
+47.64897,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 66,
+interior: "GOOD",
+name: "ATS2937",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1FK799571"
+},
+{
+address: "20th Ave NE 12079, 98125 Seattle",
+coordinates: [
+-122.30719,
+47.71719,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 90,
+interior: "GOOD",
+name: "ATZ5657",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2EK781241"
+},
+{
+address: "Olympic Way W 1248, 98119 Seattle",
+coordinates: [
+-122.36955,
+47.63066,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 12,
+interior: "GOOD",
+name: "AXG5048",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0EK782825"
+},
+{
+address: "W Nickerson St 1715, 98119 Seattle",
+coordinates: [
+-122.37922,
+47.65477,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATZ5047",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1FK788652"
+},
+{
+address: "15th Ave SW 9243, 98106 Seattle",
+coordinates: [
+-122.35394,
+47.52023,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 63,
+interior: "GOOD",
+name: "AXG5674",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9DK656641"
+},
+{
+address: "28th Ave NE 11017, 98125 Seattle",
+coordinates: [
+-122.29796,
+47.70866,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 81,
+interior: "GOOD",
+name: "ATZ5050",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2FK788692"
+},
+{
+address: "Lake Washington Blvd 208, 98122 Seattle",
+coordinates: [
+-122.28458,
+47.60288,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 84,
+interior: "GOOD",
+name: "ATZ5003",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0EK780461"
+},
+{
+address: "NE 86th St 3277, 98115 Seattle",
+coordinates: [
+-122.29131,
+47.69088,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 48,
+interior: "GOOD",
+name: "ATZ5016",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3EK782768"
+},
+{
+address: "N 36th St 479, 98103 Seattle",
+coordinates: [
+-122.35282,
+47.6518,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 48,
+interior: "GOOD",
+name: "ATZ5036",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8FK787899"
+},
+{
+address: "Sand Point Way NE 7576, 98115 Seattle",
+coordinates: [
+-122.26412,
+47.68442,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 33,
+interior: "GOOD",
+name: "AXG5479",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXEK781780"
+},
+{
+address: "N 138th St 331, 98133 Seattle",
+coordinates: [
+-122.35475,
+47.72962,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 30,
+interior: "GOOD",
+name: "ATZ5009",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4EK781466"
+},
+{
+address: "SW Winthrop St 5583, 98116 Seattle",
+coordinates: [
+-122.40434,
+47.57666,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 54,
+interior: "GOOD",
+name: "ATZ5138",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3FK794730"
+},
+{
+address: "20th Ave SW 8121, 98106 Seattle",
+coordinates: [
+-122.35907,
+47.5297,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 63,
+interior: "GOOD",
+name: "AWY0049",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3EK781491"
+},
+{
+address: "28th Ave NW 7519, 98117 Seattle",
+coordinates: [
+-122.39302,
+47.68345,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 51,
+interior: "GOOD",
+name: "AWX9213",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1DK629336"
+},
+{
+address: "W McGraw St 746, 98119 Seattle",
+coordinates: [
+-122.36693,
+47.63962,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG4873",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1DK659713"
+},
+{
+address: "10th Ave S 4537, 98108 Seattle",
+coordinates: [
+-122.3198,
+47.56284,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 51,
+interior: "GOOD",
+name: "AXG5601",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0DK657631"
+},
+{
+address: "SW Genesee St 3672, 98126 Seattle",
+coordinates: [
+-122.37843,
+47.56472,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 36,
+interior: "GOOD",
+name: "AWX9244",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1DK659341"
+},
+{
+address: "NE 65th St 4066, 98115 Seattle",
+coordinates: [
+-122.284,
+47.67575,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATZ5114",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1FK789588"
+},
+{
+address: "E James St 2150, 98122 Seattle",
+coordinates: [
+-122.30438,
+47.60722,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 96,
+interior: "GOOD",
+name: "AXG5039",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2EK778761"
+},
+{
+address: "6th Ave W 599, 98119 Seattle",
+coordinates: [
+-122.36483,
+47.62464,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 39,
+interior: "GOOD",
+name: "AUK2226",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4EK781161"
+},
+{
+address: "Rainier Ave S 7555, 98118 Seattle",
+coordinates: [
+-122.27007,
+47.53484,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 57,
+interior: "GOOD",
+name: "AXG5473",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3EK782298"
+},
+{
+address: "S Thistle St 3966, 98118 Seattle",
+coordinates: [
+-122.28176,
+47.52793,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATZ5141",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1FK794810"
+},
+{
+address: "E Columbia St 3116, 98122 Seattle",
+coordinates: [
+-122.29241,
+47.60931,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 75,
+interior: "GOOD",
+name: "AWY0048",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1EK784485"
+},
+{
+address: "Broadway E 1191, 98102 Seattle",
+coordinates: [
+-122.32135,
+47.63035,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATZ5671",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8EK781261"
+},
+{
+address: "6th Ave W 1569, 98119 Seattle",
+coordinates: [
+-122.36514,
+47.6332,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 12,
+interior: "GOOD",
+name: "AXG4719",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3EK782558"
+},
+{
+address: "36th Ave NE 8059, 98115 Seattle",
+coordinates: [
+-122.28961,
+47.68774,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATZ5035",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1FK787856"
+},
+{
+address: "NW 117th St 265, 98177 Seattle",
+coordinates: [
+-122.3604,
+47.71418,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 90,
+interior: "GOOD",
+name: "AXG4703",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8DK656310"
+},
+{
+address: "NE 75th St 5801, 98115 Seattle",
+coordinates: [
+-122.26516,
+47.68271,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 63,
+interior: "GOOD",
+name: "ATZ5018",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7EK783373"
+},
+{
+address: "24th Ave W 2866, 98199 Seattle",
+coordinates: [
+-122.3876,
+47.64531,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 45,
+interior: "GOOD",
+name: "ATZ5048",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6FK788677"
+},
+{
+address: "24th Ave SW 7755, 98106 Seattle",
+coordinates: [
+-122.36327,
+47.53268,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 72,
+interior: "GOOD",
+name: "ATS 2920",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9FK799818"
+},
+{
+address: "Phinney Ave N 3547, 98103 Seattle",
+coordinates: [
+-122.35458,
+47.65182,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 51,
+interior: "GOOD",
+name: "AXG5667",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9DK655280"
+},
+{
+address: "Dayton Ave N 12523, 98133 Seattle",
+coordinates: [
+-122.35298,
+47.72001,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 60,
+interior: "GOOD",
+name: "ATZ5139",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6FK794740"
+},
+{
+address: "N 78th St 1354, 98103 Seattle",
+coordinates: [
+-122.34028,
+47.68553,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 27,
+interior: "GOOD",
+name: "AXG4774",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3DK657185"
+},
+{
+address: "Corgiat Dr S, 98108 Seattle",
+coordinates: [
+-122.30926,
+47.54621,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 84,
+interior: "GOOD",
+name: "ATS2948",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0FK800063"
+},
+{
+address: "Franklin Ave E 2281, 98102 Seattle",
+coordinates: [
+-122.32465,
+47.6395,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATS 2916",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3FK799829"
+},
+{
+address: "17th Ave SW 5619, 98106 Seattle",
+coordinates: [
+-122.35605,
+47.55105,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATZ5020",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9EK783942"
+},
+{
+address: "Midvale Ave N 14359, 98133 Seattle",
+coordinates: [
+-122.34406,
+47.73382,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 45,
+interior: "GOOD",
+name: "ATZ5128",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4FK793327"
+},
+{
+address: "SW Holgate St 4036, 98116 Seattle",
+coordinates: [
+-122.38283,
+47.58677,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 45,
+interior: "GOOD",
+name: "AXG4893",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4DK659172"
+},
+{
+address: "11th Ave NW 7783, 98117 Seattle",
+coordinates: [
+-122.37045,
+47.68664,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 60,
+interior: "GOOD",
+name: "ATZ5019",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1EK783465"
+},
+{
+address: "SW 100th St 4363, 98146 Seattle",
+coordinates: [
+-122.38817,
+47.51378,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATS 2949",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3FK800168"
+},
+{
+address: "Cornell Ave S 10453, 98178 Seattle",
+coordinates: [
+-122.24493,
+47.50903,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 33,
+interior: "GOOD",
+name: "AXG4786",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2DK659834"
+},
+{
+address: "Ashworth Ave N 10531, 98133 Seattle",
+coordinates: [
+-122.33939,
+47.70563,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 84,
+interior: "GOOD",
+name: "AXG5064",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5EK782755"
+},
+{
+address: "NE 55th St 5553, 98105 Seattle",
+coordinates: [
+-122.26726,
+47.66844,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATZ5123",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3FK794825"
+},
+{
+address: "5th Ave NW 6243, 98107 Seattle",
+coordinates: [
+-122.36291,
+47.67494,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 21,
+interior: "GOOD",
+name: "AXG5494",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0DK658780"
+},
+{
+address: "E Mercer St 1086, 98102 Seattle",
+coordinates: [
+-122.31804,
+47.6243,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 60,
+interior: "GOOD",
+name: "AXG5740",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1FK787663"
+},
+{
+address: "E Spring St 1815, 98122 Seattle",
+coordinates: [
+-122.30864,
+47.61153,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 21,
+interior: "GOOD",
+name: "ATZ5669",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5FK794695"
+},
+{
+address: "25th Ave 1617, 98122 Seattle",
+coordinates: [
+-122.30015,
+47.61549,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 57,
+interior: "GOOD",
+name: "AXG5744",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8FK790317"
+},
+{
+address: "6th Ave NW 7913, 98117 Seattle",
+coordinates: [
+-122.36344,
+47.6863,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATZ5125",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1FK794998"
+},
+{
+address: "Alki Ave SW 1538, 98116 Seattle",
+coordinates: [
+-122.39416,
+47.58933,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 42,
+interior: "GOOD",
+name: "AXG4899",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3DK659308"
+},
+{
+address: "S Charles St, 98144 Seattle",
+coordinates: [
+-122.31129,
+47.59409,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATZ5116",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6FK790137"
+},
+{
+address: "Walnut Ave SW 2571, 98116 Seattle",
+coordinates: [
+-122.38341,
+47.58142,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 27,
+interior: "GOOD",
+name: "AWY0079",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6EK781775"
+},
+{
+address: "11th Ave NE 13333, 98125 Seattle",
+coordinates: [
+-122.31678,
+47.72547,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 45,
+interior: "GOOD",
+name: "AWY0051",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2EK782180"
+},
+{
+address: "24th Ave S 6151, 98108 Seattle",
+coordinates: [
+-122.30229,
+47.54759,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 57,
+interior: "GOOD",
+name: "AXF4376",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXDK659855"
+},
+{
+address: "SW Webster St 3716, 98126 Seattle",
+coordinates: [
+-122.37945,
+47.5357,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 48,
+interior: "GOOD",
+name: "ATZ5025",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1EK785264"
+},
+{
+address: "Diagonal Ave S, 98134 Seattle",
+coordinates: [
+-122.33042,
+47.56679,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 15,
+interior: "GOOD",
+name: "AWY0047",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1DK656570"
+},
+{
+address: "Bellevue Ave E 737, 98102 Seattle",
+coordinates: [
+-122.32667,
+47.62579,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 93,
+interior: "GOOD",
+name: "ATZ5015",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8EK782684"
+},
+{
+address: "38th Ave SW 2630, 98126 Seattle",
+coordinates: [
+-122.38019,
+47.58063,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 60,
+interior: "GOOD",
+name: "AXG4880",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXEK776398"
+},
+{
+address: "40th Ave NE 14401, 98125 Seattle",
+coordinates: [
+-122.28582,
+47.73322,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AUK2239",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9FK792965"
+},
+{
+address: "E Union St 2369, 98122 Seattle",
+coordinates: [
+-122.30183,
+47.61299,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG4729",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1EK781909"
+},
+{
+address: "48th Ave SW 9685, 98136 Seattle",
+coordinates: [
+-122.39383,
+47.51531,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 45,
+interior: "GOOD",
+name: "AXG4733",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1EK783627"
+},
+{
+address: "W Government Way 3338, 98199 Seattle",
+coordinates: [
+-122.40025,
+47.65991,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 30,
+interior: "GOOD",
+name: "AXG4792",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6EK779458"
+},
+{
+address: "Franklin Ave E 2369, 98102 Seattle",
+coordinates: [
+-122.32467,
+47.64134,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AWY0368",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4FK793134"
+},
+{
+address: "6th Ave NW 8583, 98117 Seattle",
+coordinates: [
+-122.36336,
+47.69126,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 51,
+interior: "GOOD",
+name: "ATZ5142",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1FK788702"
+},
+{
+address: "3rd Ave NE 9751, 98115 Seattle",
+coordinates: [
+-122.3263,
+47.70034,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 33,
+interior: "GOOD",
+name: "AWB6198",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9FK793260"
+},
+{
+address: "Canterbury Ln E 2451, 98112 Seattle",
+coordinates: [
+-122.28137,
+47.64099,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 69,
+interior: "GOOD",
+name: "AXG5766",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4EK776980"
+},
+{
+address: "NE Windermere Rd 6047, 98105 Seattle",
+coordinates: [
+-122.26248,
+47.66712,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 42,
+interior: "GOOD",
+name: "AWX9205",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5EK780598"
+},
+{
+address: "N 137th St 2137, 98133 Seattle",
+coordinates: [
+-122.33318,
+47.72861,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 72,
+interior: "GOOD",
+name: "AUK2241",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1FK787291"
+},
+{
+address: "NE 89th St 2054, 98115 Seattle",
+coordinates: [
+-122.30626,
+47.69306,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 60,
+interior: "GOOD",
+name: "AXF4349",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3EK777828"
+},
+{
+address: "Meridian Ave N 3357, 98103 Seattle",
+coordinates: [
+-122.33402,
+47.64757,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 87,
+interior: "GOOD",
+name: "ATZ5143",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0FK791865"
+},
+{
+address: "NE 63rd St 189, 98115 Seattle",
+coordinates: [
+-122.32572,
+47.6744,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 63,
+interior: "GOOD",
+name: "ATZ5056",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8FK790852"
+},
+{
+address: "27th Ave W 3075, 98199 Seattle",
+coordinates: [
+-122.39162,
+47.64824,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATS 2919",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1FK799716"
+},
+{
+address: "27th Ave NE 8543, 98115 Seattle",
+coordinates: [
+-122.29895,
+47.69045,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 48,
+interior: "GOOD",
+name: "AXG5742",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3FK791701"
+},
+{
+address: "NE 95th St 1040, 98115 Seattle",
+coordinates: [
+-122.31706,
+47.69771,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 45,
+interior: "GOOD",
+name: "AXF4366",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8DK660373"
+},
+{
+address: "3rd Ave NE 9701, 98125 Seattle",
+coordinates: [
+-122.32597,
+47.69919,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 84,
+interior: "GOOD",
+name: "ATZ5062",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5FK791876"
+},
+{
+address: "31st Ave NE 11011, 98125 Seattle",
+coordinates: [
+-122.29495,
+47.70857,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AWY0070",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1EK779707"
+},
+{
+address: "51st Ave NE 6225, 98115 Seattle",
+coordinates: [
+-122.27281,
+47.6748,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 54,
+interior: "GOOD",
+name: "AXG4890",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5DK659214"
+},
+{
+address: "Franklin Ave E 2365, 98102 Seattle",
+coordinates: [
+-122.32464,
+47.64144,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 96,
+interior: "GOOD",
+name: "AXF4365",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8DK660146"
+},
+{
+address: "1st Ave W 1115, 98119 Seattle",
+coordinates: [
+-122.35801,
+47.6288,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 81,
+interior: "GOOD",
+name: "AXG5041",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5EK780892"
+},
+{
+address: "E Ward St 3652, 98112 Seattle",
+coordinates: [
+-122.28618,
+47.62737,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 42,
+interior: "GOOD",
+name: "AUK2217",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXEK779978"
+},
+{
+address: "Meridian Ave N 4951, 98103 Seattle",
+coordinates: [
+-122.33379,
+47.66468,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATZ5660",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2EK783880"
+},
+{
+address: "30th Ave NE 5299, 98105 Seattle",
+coordinates: [
+-122.29571,
+47.66774,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 21,
+interior: "GOOD",
+name: "AUK2238",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8FK793234"
+},
+{
+address: "Franklin Ave E 2255, 98102 Seattle",
+coordinates: [
+-122.32465,
+47.6391,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 48,
+interior: "GOOD",
+name: "AUK2212",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1FK788618"
+},
+{
+address: "4th Ave S 6004, 98108 Seattle",
+coordinates: [
+-122.3295,
+47.54918,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG4885",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7EK780912"
+},
+{
+address: "I-5, 98105 Wallingford",
+coordinates: [
+-122.32221,
+47.6546,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 57,
+interior: "GOOD",
+name: "AXG4793",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4DK659995"
+},
+{
+address: "24th Pl S 4117, 98108 Seattle",
+coordinates: [
+-122.30147,
+47.56565,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 24,
+interior: "GOOD",
+name: "AUK2237",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4FK795093"
+},
+{
+address: "SW Henderson St 2828, 98126 Seattle",
+coordinates: [
+-122.36903,
+47.52286,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG4709",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3EK782530"
+},
+{
+address: "Thorndyke Ave W 2453, 98199 Seattle",
+coordinates: [
+-122.3861,
+47.64103,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 87,
+interior: "GOOD",
+name: "ATS 2941",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5FK799962"
+},
+{
+address: "27th Ave W 4249, 98199 Seattle",
+coordinates: [
+-122.39157,
+47.65863,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 84,
+interior: "GOOD",
+name: "AXF4334",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3EK782737"
+},
+{
+address: "62nd Ave SW 3023, 98116 Seattle",
+coordinates: [
+-122.41196,
+47.57754,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 36,
+interior: "GOOD",
+name: "ATZ5102",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5FK789299"
+},
+{
+address: "NE 68th St 3244, 98115 Seattle",
+coordinates: [
+-122.29239,
+47.67763,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 66,
+interior: "GOOD",
+name: "ATS 2932",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6FK799338"
+},
+{
+address: "NW 78th St 639, 98117 Seattle",
+coordinates: [
+-122.36438,
+47.68545,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 54,
+interior: "GOOD",
+name: "AXG4698",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8EK785357"
+},
+{
+address: "7th Ave S 4311, 98108 Seattle",
+coordinates: [
+-122.32403,
+47.56463,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 72,
+interior: "GOOD",
+name: "ATZ5061",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3FK791469"
+},
+{
+address: "Ravenna Ave NE 9512, 98115 Seattle",
+coordinates: [
+-122.30473,
+47.69774,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 33,
+interior: "GOOD",
+name: "ATZ5127",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2FK793312"
+},
+{
+address: "Fauntleroy Way SW 9271, 98136 Seattle",
+coordinates: [
+-122.39381,
+47.52035,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 57,
+interior: "GOOD",
+name: "ATZ5066",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6FK792387"
+},
+{
+address: "S Massachusetts St 2300, 98144 Seattle",
+coordinates: [
+-122.30194,
+47.58866,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 90,
+interior: "GOOD",
+name: "ATZ5028",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2EK785418"
+},
+{
+address: "Renton Ave S 5634, 98118 Seattle",
+coordinates: [
+-122.28511,
+47.5517,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 54,
+interior: "GOOD",
+name: "AWL4647",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0FK795043"
+},
+{
+address: "McGraw St 67, 98109 Seattle",
+coordinates: [
+-122.35602,
+47.63955,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 27,
+interior: "GOOD",
+name: "ATS 2938",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2FK799725"
+},
+{
+address: "49th Ave SW 3463, 98116 Seattle",
+coordinates: [
+-122.39481,
+47.57282,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG4788",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9EK777333"
+},
+{
+address: "NW 64th St 891, 98107 Seattle",
+coordinates: [
+-122.36845,
+47.67524,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AWB6187",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3FK790614"
+},
+{
+address: "18th Ave S 5711, 98108 Seattle",
+coordinates: [
+-122.30989,
+47.55186,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 93,
+interior: "GOOD",
+name: "ATZ5024",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2EK785189"
+},
+{
+address: "NE 110th St 3172, 98125 Seattle",
+coordinates: [
+-122.29282,
+47.70842,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 30,
+interior: "GOOD",
+name: "ATZ5082",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3FK795148"
+},
+{
+address: "W Crockett St 1036, 98119 Seattle",
+coordinates: [
+-122.37078,
+47.63781,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 30,
+interior: "GOOD",
+name: "AXG4696",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8EK779574"
+},
+{
+address: "Portage Bay Pl E 3163, 98102 Seattle",
+coordinates: [
+-122.31905,
+47.65,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 45,
+interior: "GOOD",
+name: "ATS2905",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9FK799902"
+},
+{
+address: "Franklin Ave E 1633, 98102 Seattle",
+coordinates: [
+-122.32441,
+47.63416,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 66,
+interior: "GOOD",
+name: "ATZ5037",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7FK787909"
+},
+{
+address: "W Fort St 2750, 98199 Seattle",
+coordinates: [
+-122.39208,
+47.6612,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 93,
+interior: "GOOD",
+name: "ATZ 5070",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1FK792894"
+},
+{
+address: "SW Roxbury St 361, 98106 Seattle",
+coordinates: [
+-122.33973,
+47.51733,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 54,
+interior: "GOOD",
+name: "ATZ5096",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0FK787542"
+},
+{
+address: "NW 84th St 368, 98117 Seattle",
+coordinates: [
+-122.36248,
+47.68982,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 57,
+interior: "GOOD",
+name: "AUK2225",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1EK781313"
+},
+{
+address: "24th Ave NW 9247, 98117 Seattle",
+coordinates: [
+-122.38766,
+47.69741,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATZ5065",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3FK792041"
+},
+{
+address: "S Trenton St 1356, 98108 Seattle",
+coordinates: [
+-122.31521,
+47.52478,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 24,
+interior: "GOOD",
+name: "ATS2908",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5FK800298"
+},
+{
+address: "SW Stevens St 5968, 98116 Seattle",
+coordinates: [
+-122.40898,
+47.57775,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AUK2207",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8FK787191"
+},
+{
+address: "20th Ave SW 9485, 98106 Seattle",
+coordinates: [
+-122.35923,
+47.51766,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 72,
+interior: "GOOD",
+name: "AWB6184",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1EK782820"
+},
+{
+address: "46th Ave NE 10210, 98125 Seattle",
+coordinates: [
+-122.27882,
+47.70276,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATS2926",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6FK799999"
+},
+{
+address: "E Roanoke St 108, 98102 Seattle",
+coordinates: [
+-122.32663,
+47.64322,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 15,
+interior: "GOOD",
+name: "AUK2213",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0FK787055"
+},
+{
+address: "Federal Ave E 1163, 98102 Seattle",
+coordinates: [
+-122.31919,
+47.62986,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 39,
+interior: "GOOD",
+name: "ATS2933",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7FK799977"
+},
+{
+address: "E Louisa St 287, 98102 Seattle",
+coordinates: [
+-122.32373,
+47.64199,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 51,
+interior: "GOOD",
+name: "ATZ5032",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6FK787822"
+},
+{
+address: "N 120th St 2385, 98133 Seattle",
+coordinates: [
+-122.32919,
+47.71591,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 30,
+interior: "GOOD",
+name: "ATZ5023",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0EK784624"
+},
+{
+address: "59th Ave SW 3623, 98116 Seattle",
+coordinates: [
+-122.40841,
+47.57204,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATS2912",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5FK800284"
+},
+{
+address: "Cyrus Ave NW 9181, 98117 Seattle",
+coordinates: [
+-122.3995,
+47.69587,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 63,
+interior: "GOOD",
+name: "ATZ5659",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2EK781644"
+},
+{
+address: "12th Ave NE 4545, 98105 Seattle",
+coordinates: [
+-122.3154,
+47.66212,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 24,
+interior: "GOOD",
+name: "AXG4768",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1DK656228"
+},
+{
+address: "36th Ave S 4237, 98118 Seattle",
+coordinates: [
+-122.28725,
+47.5649,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 24,
+interior: "GOOD",
+name: "AXG4712",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0EK785482"
+},
+{
+address: "4th Ave SW 9476, 98106 Seattle",
+coordinates: [
+-122.33998,
+47.51867,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 60,
+interior: "GOOD",
+name: "AWB6194",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7FK794245"
+},
+{
+address: "Fremont Ave N 9577, 98103 Seattle",
+coordinates: [
+-122.35004,
+47.69852,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 27,
+interior: "GOOD",
+name: "AXG5028",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4FK788466"
+},
+{
+address: "NE 76th St 758, 98115 Seattle",
+coordinates: [
+-122.32043,
+47.68386,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 87,
+interior: "GOOD",
+name: "AWY0089",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXFK794255"
+},
+{
+address: "42nd Ave SW 6337, 98136 Seattle",
+coordinates: [
+-122.38573,
+47.54612,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 84,
+interior: "GOOD",
+name: "AUK2228",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXEK783545"
+},
+{
+address: "38th Ave NE 7305, 98115 Seattle",
+coordinates: [
+-122.28782,
+47.6815,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 36,
+interior: "GOOD",
+name: "ATZ5011",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4EK781953"
+},
+{
+address: "S Hudson St 3957, 98118 Seattle",
+coordinates: [
+-122.28189,
+47.557,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATS2918",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2FK799658"
+},
+{
+address: "NE 75th St 4910, 98115 Seattle",
+coordinates: [
+-122.27509,
+47.68301,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATZ5085",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXFK786964"
+},
+{
+address: "NE 110th St 4313, 98125 Seattle",
+coordinates: [
+-122.28124,
+47.70863,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATZ5130",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2FK794220"
+},
+{
+address: "28th Ave NE 12731, 98125 Seattle",
+coordinates: [
+-122.29768,
+47.72162,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 48,
+interior: "GOOD",
+name: "ATZ5124",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1FK794953"
+},
+{
+address: "38th Ave NE 6883, 98115 Seattle",
+coordinates: [
+-122.2872,
+47.67911,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AWY0356",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3EK782320"
+},
+{
+address: "19th Ave 979, 98122 Seattle",
+coordinates: [
+-122.30759,
+47.61142,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATZ5133",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6FK794270"
+},
+{
+address: "42nd Ave NE 12937, 98125 Seattle",
+coordinates: [
+-122.28295,
+47.72303,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATS 2928",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6FK799856"
+},
+{
+address: "Sunnyside Ave N 4635, 98103 Seattle",
+coordinates: [
+-122.33013,
+47.66397,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 57,
+interior: "GOOD",
+name: "ATS 2923",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7FK800352"
+},
+{
+address: "Flora Ave S 6539, 98108 Seattle",
+coordinates: [
+-122.31995,
+47.54461,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AUK2242",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7FK787764"
+},
+{
+address: "Rainier Ave S 4369, 98118 Seattle",
+coordinates: [
+-122.2884,
+47.56448,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATZ5063",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5FK791926"
+},
+{
+address: "37th Ave SW 8542, 98126 Seattle",
+coordinates: [
+-122.3793,
+47.52683,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 75,
+interior: "GOOD",
+name: "AXG4898",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1DK655287"
+},
+{
+address: "40th Ave SW 9858, 98136 Seattle",
+coordinates: [
+-122.38323,
+47.5145,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATZ5099",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8FK787739"
+},
+{
+address: "5th Ave NE 7969, 98115 Seattle",
+coordinates: [
+-122.32291,
+47.68657,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 51,
+interior: "GOOD",
+name: "AXG5067",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7EK779775"
+},
+{
+address: "S Andover St 3883, 98118 Seattle",
+coordinates: [
+-122.28414,
+47.56791,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 21,
+interior: "GOOD",
+name: "AXG5056",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1FK792507"
+},
+{
+address: "40th Ave NE 8247, 98115 Seattle",
+coordinates: [
+-122.28539,
+47.68924,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 51,
+interior: "GOOD",
+name: "AWX9210",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXDK657040"
+},
+{
+address: "39th Ave SW 3841, 98116 Seattle",
+coordinates: [
+-122.38154,
+47.56983,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 96,
+interior: "GOOD",
+name: "ATZ5026",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0EK785367"
+},
+{
+address: "22nd Ave S 2058, 98144 Seattle",
+coordinates: [
+-122.30415,
+47.58494,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AUK2224",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2EK785113"
+},
+{
+address: "3rd Ave NW 7825, 98117 Seattle",
+coordinates: [
+-122.3607,
+47.6857,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 42,
+interior: "GOOD",
+name: "ATZ 5057",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4FK790864"
+},
+{
+address: "SW 98th St 2026, 98106 Seattle",
+coordinates: [
+-122.35951,
+47.51551,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5643",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXDK654462"
+},
+{
+address: "34th Ave NE 7074, 98115 Seattle",
+coordinates: [
+-122.29138,
+47.6808,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 39,
+interior: "GOOD",
+name: "AXG5675",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9DK656803"
+},
+{
+address: "NE 67th St 861, 98115 Seattle",
+coordinates: [
+-122.31843,
+47.67725,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 96,
+interior: "GOOD",
+name: "ATZ5081",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5FK795118"
+},
+{
+address: "Stanford Ave NE 4589, 98105 Seattle",
+coordinates: [
+-122.27677,
+47.67079,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 54,
+interior: "GOOD",
+name: "AXG5747",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9FK789242"
+},
+{
+address: "California Ave SW 2935, 98116 Seattle",
+coordinates: [
+-122.38677,
+47.57755,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AWY0057",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1DK658805"
+},
+{
+address: "N 110th St 221, 98133 Seattle",
+coordinates: [
+-122.35654,
+47.70871,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATZ5002",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXEK780130"
+},
+{
+address: "12th Ave E 739, 98102 Seattle",
+coordinates: [
+-122.31677,
+47.62581,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 48,
+interior: "GOOD",
+name: "ATZ5103",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7FK789305"
+},
+{
+address: "22nd Ave NE 6429, 98115 Seattle",
+coordinates: [
+-122.30447,
+47.67545,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 78,
+interior: "GOOD",
+name: "ATS2935",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9FK799883"
+},
+{
+address: "Nob Hill Ave N 2537, 98109 Seattle",
+coordinates: [
+-122.35064,
+47.64236,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 69,
+interior: "GOOD",
+name: "ATZ5118",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6FK790249"
+},
+{
+address: "E Yesler Way 3051, 98122 Seattle",
+coordinates: [
+-122.29307,
+47.60161,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 48,
+interior: "GOOD",
+name: "AXG5052",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8DK660230"
+},
+{
+address: "Beacon Ave S 8645, 98118 Seattle",
+coordinates: [
+-122.28764,
+47.52504,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 42,
+interior: "GOOD",
+name: "AXG4868",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2DK653905"
+},
+{
+address: "Harbor Ave SW 1031, 98116 Seattle",
+coordinates: [
+-122.3839,
+47.59394,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5680",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6DK659092"
+},
+{
+address: "48th Ave S 4935, 98118 Seattle",
+coordinates: [
+-122.27333,
+47.55779,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG4785",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9DK656235"
+},
+{
+address: "NW 43rd St 458, 98107 Seattle",
+coordinates: [
+-122.36251,
+47.65898,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 21,
+interior: "GOOD",
+name: "ATS 2915",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6FK799775"
+},
+{
+address: "SW Stevens St 6590, 98116 Seattle",
+coordinates: [
+-122.41652,
+47.57687,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 57,
+interior: "GOOD",
+name: "ATZ5092",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0FK787508"
+},
+{
+address: "20th Ave NW 4866, 98107 Seattle",
+coordinates: [
+-122.38208,
+47.66521,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATZ5069",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9FK792741"
+},
+{
+address: "Roslyn Pl N 14376, 98133 Seattle",
+coordinates: [
+-122.3407,
+47.73375,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG4714",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2EK783099"
+},
+{
+address: "Roosevelt Way NE 13007, 98125 Seattle",
+coordinates: [
+-122.32511,
+47.72415,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 57,
+interior: "GOOD",
+name: "ATZ5000",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3EK779207"
+},
+{
+address: "NE 103rd St 2793, 98125 Seattle",
+coordinates: [
+-122.29628,
+47.70306,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 84,
+interior: "GOOD",
+name: "ATZ5120",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0FK790442"
+},
+{
+address: "Whitman Ave N 10530, 98133 Seattle",
+coordinates: [
+-122.34596,
+47.70556,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 60,
+interior: "GOOD",
+name: "AWB6189",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8FK791886"
+},
+{
+address: "S Bailey St 1254, 98108 Seattle",
+coordinates: [
+-122.31668,
+47.54792,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AUK2215",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1FK789316"
+},
+{
+address: "17th Ave E 1571, 98112 Seattle",
+coordinates: [
+-122.30992,
+47.63365,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 42,
+interior: "GOOD",
+name: "AWY0327",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5DK657575"
+},
+{
+address: "S Upland Rd 5564, 98118 Seattle",
+coordinates: [
+-122.26287,
+47.54738,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 39,
+interior: "GOOD",
+name: "AWY0331",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8DK628863"
+},
+{
+address: "Letitia Ave S 4181, 98118 Seattle",
+coordinates: [
+-122.28973,
+47.56577,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 60,
+interior: "GOOD",
+name: "AWY0054",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXFK790531"
+},
+{
+address: "32nd Ave W, 98199 Seattle",
+coordinates: [
+-122.39838,
+47.66101,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 51,
+interior: "GOOD",
+name: "ATZ5134",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0FK794300"
+},
+{
+address: "Harvard Ave E 933, 98102 Seattle",
+coordinates: [
+-122.32242,
+47.62745,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 72,
+interior: "GOOD",
+name: "AWY0083",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXEK782203"
+},
+{
+address: "Stone Ave N 11657, 98133 Seattle",
+coordinates: [
+-122.34226,
+47.71452,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 60,
+interior: "GOOD",
+name: "ATS 2925",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7FK799641"
+},
+{
+address: "Midvale Ave N 14363, 98133 Seattle",
+coordinates: [
+-122.34394,
+47.73385,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 30,
+interior: "GOOD",
+name: "AXF4340",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6EK776334"
+},
+{
+address: "Brooklyn Ave NE 4589, 98105 Seattle",
+coordinates: [
+-122.31433,
+47.66297,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 63,
+interior: "GOOD",
+name: "AWY0357",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5EK780276"
+},
+{
+address: "16th Ave NE 12387, 98125 Seattle",
+coordinates: [
+-122.31135,
+47.7192,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 72,
+interior: "GOOD",
+name: "AXG5638",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXDK654168"
+},
+{
+address: "37th Ave NE 13113, 98125 Seattle",
+coordinates: [
+-122.28858,
+47.72428,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 45,
+interior: "GOOD",
+name: "ATZ5051",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4FK788712"
+},
+{
+address: "Beacon Ave S 9006, 98118 Seattle",
+coordinates: [
+-122.28448,
+47.52253,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 45,
+interior: "GOOD",
+name: "ATS 2924",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7FK799932"
+},
+{
+address: "36th Ave E 153, 98112 Seattle",
+coordinates: [
+-122.2869,
+47.61967,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 45,
+interior: "GOOD",
+name: "AXG4737",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXEK781424"
+},
+{
+address: "N 55th St 2125, 98103 Seattle",
+coordinates: [
+-122.33348,
+47.66863,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AUK2232",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9FK794215"
+},
+{
+address: "Stone Ave N 12344, 98133 Seattle",
+coordinates: [
+-122.34214,
+47.71933,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AWL4646",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3FK794923"
+},
+{
+address: "37th Ave NE 7520, 98115 Seattle",
+coordinates: [
+-122.28832,
+47.68345,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 81,
+interior: "GOOD",
+name: "AWY0355",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8EK780577"
+},
+{
+address: "18th Ave SW 7004, 98106 Seattle",
+coordinates: [
+-122.35719,
+47.54001,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 27,
+interior: "GOOD",
+name: "ATS2914",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7FK799946"
+},
+{
+address: "N 93rd St 932, 98103 Seattle",
+coordinates: [
+-122.34643,
+47.69636,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5779",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7EK777802"
+},
+{
+address: "N 113th St 2135, 98133 Seattle",
+coordinates: [
+-122.3331,
+47.71049,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AWY0060",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9EK781236"
+},
+{
+address: "4th Ave NE 9751, 98115 Seattle",
+coordinates: [
+-122.32421,
+47.69969,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 45,
+interior: "GOOD",
+name: "ATZ5064",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA2FK792001"
+},
+{
+address: "31st Ave NE 5563, 98105 Seattle",
+coordinates: [
+-122.29382,
+47.66968,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 60,
+interior: "GOOD",
+name: "AWY0072",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8EK782099"
+},
+{
+address: "Dayton Ave N 10413, 98133 Seattle",
+coordinates: [
+-122.35285,
+47.70444,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 87,
+interior: "GOOD",
+name: "ATS2943",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0FK799951"
+},
+{
+address: "28th Ave NW 5645, 98107 Seattle",
+coordinates: [
+-122.39293,
+47.66978,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 39,
+interior: "GOOD",
+name: "AXG5474",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1EK782249"
+},
+{
+address: "30th Ave S 2555, 98144 Seattle",
+coordinates: [
+-122.2942,
+47.58024,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5489",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4DK658975"
+},
+{
+address: "Olympic Way W 1245, 98119 Seattle",
+coordinates: [
+-122.36963,
+47.63056,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "ATZ5094",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7FK787523"
+},
+{
+address: "NW 52nd St 1536, 98107 Seattle",
+coordinates: [
+-122.37722,
+47.66649,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 78,
+interior: "GOOD",
+name: "AXF4353",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4FK789505"
+},
+{
+address: "Eastern Ave N 4689, 98103 Seattle",
+coordinates: [
+-122.32912,
+47.66479,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 63,
+interior: "GOOD",
+name: "ATZ5006",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXEK780922"
+},
+{
+address: "E Jefferson St 2010, 98122 Seattle",
+coordinates: [
+-122.30619,
+47.60611,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5768",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9EK778630"
+},
+{
+address: "NE 47th St 1221, 98105 Seattle",
+coordinates: [
+-122.31502,
+47.66306,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 45,
+interior: "GOOD",
+name: "AXG5770",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA4EK778325"
+},
+{
+address: "10th Ave W 1941, 98119 Seattle",
+coordinates: [
+-122.37044,
+47.63671,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 21,
+interior: "GOOD",
+name: "AXG4853",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA7EK780442"
+},
+{
+address: "Palatine Ave N 8729, 98103 Seattle",
+coordinates: [
+-122.35671,
+47.69296,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 93,
+interior: "GOOD",
+name: "ATZ5052",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA0FK789128"
+},
+{
+address: "NE 70th St 1073, 98115 Seattle",
+coordinates: [
+-122.31676,
+47.67941,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 48,
+interior: "GOOD",
+name: "AUK2240",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3FK793223"
+},
+{
+address: "SW Henderson St 2824, 98126 Seattle",
+coordinates: [
+-122.36901,
+47.52294,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 48,
+interior: "GOOD",
+name: "AXF4361",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA8DK629902"
+},
+{
+address: "NE 57th St 3430, 98105 Seattle",
+coordinates: [
+-122.29106,
+47.67036,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 51,
+interior: "GOOD",
+name: "ATZ 5126",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6FK793295"
+},
+{
+address: "Wallingford Ave N 4333, 98103 Seattle",
+coordinates: [
+-122.33615,
+47.65953,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 48,
+interior: "GOOD",
+name: "ATS 2934",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXFK799648"
+},
+{
+address: "45th Ave SW 8873, 98136 Seattle",
+coordinates: [
+-122.39022,
+47.52433,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 36,
+interior: "GOOD",
+name: "ATZ5663",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA9FK789273"
+},
+{
+address: "N 112th St 338, 98133 Seattle",
+coordinates: [
+-122.35498,
+47.71056,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 63,
+interior: "GOOD",
+name: "AUK2234",
+smartPhoneRequired: false,
+vin: "WMEEJ3BAXFK793249"
+},
+{
+address: "S Bangor St 5629, 98178 Seattle",
+coordinates: [
+-122.26255,
+47.50609,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AWY0359",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA3EK784875"
+},
+{
+address: "Belmont Pl E 771, 98102 Seattle",
+coordinates: [
+-122.32423,
+47.62703,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 57,
+interior: "GOOD",
+name: "ATZ5670",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5FK794745"
+},
+{
+address: "39th Ave S 9239, 98118 Seattle",
+coordinates: [
+-122.28374,
+47.52073,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 100,
+interior: "GOOD",
+name: "AXG5641",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA5DK654319"
+},
+{
+address: "NW 70th St 2460, 98117 Seattle",
+coordinates: [
+-122.38823,
+47.67956,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 36,
+interior: "GOOD",
+name: "AXG5655",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA1DK655659"
+},
+{
+address: "5th Ave NE 11769, 98125 Seattle",
+coordinates: [
+-122.32353,
+47.71542,
+0
+],
+engineType: "CE",
+exterior: "GOOD",
+fuel: 33,
+interior: "GOOD",
+name: "AXG4787",
+smartPhoneRequired: false,
+vin: "WMEEJ3BA6EK779069"
+}
+]
+}

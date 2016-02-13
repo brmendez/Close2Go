@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <child foo="bar">
+      <grandchild baz="fizbuzz">grandchild content</grandchild>
+   </child>
+   <sibling>with content!</sibling>
+</root>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<bookingResponse xmlns="http://www.car2go.com/openapi/xmlschema">
+   <returnValue>
+      <code>0</code>
+      <description>Operation successful.</description>
+   </returnValue>
+   <booking>
+      <bookingId>321</bookingId>
+      <reservationTime>2016-01-09T04:14:43.573+01:00</reservationTime>
+      <bookingposition>
+         <latitude>47.64973559</latitude>
+         <longitude>-122.34028409</longitude>
+         <address>SomeStreet</address>
+      </bookingposition>
+      <account>
+         <accountId>100</accountId>
+         <description>Test Account 1</description>
+      </account>
+      <vehicle>
+         <vin>WMEEJ3BA2FK790054</vin>
+         <numberPlate>TEST PLATE 01</numberPlate>
+         <fuel>95</fuel>
+         <interior>GOOD</interior>
+         <exterior>BAD</exterior>
+         <position>
+            <latitude>47.64973559</latitude>
+            <longitude>-122.34028409</longitude>
+            <address>SomeStreet</address>
+         </position>
+         <engineType>CE</engineType>
+         <charging>false</charging>
+      </vehicle>
+   </booking>
+</bookingResponse>
+
+/bookingResponse/booking/bookingId
+
+libxml.parseXmlString(getBookingXML).root().childNodes()[3].child(1).toString()
