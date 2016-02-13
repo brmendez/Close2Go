@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var oauthsig = require('oauth-signature');
+var keys = require('../config.json');
 var commons = require('../commons/commons.js');
 
 // the code exists in commons.js
@@ -10,19 +11,19 @@ var commons = require('../commons/commons.js');
 
 router.get('/', function(req, res, next) {
 
+    var bookingId = '321';
     var test = 1;
     var format = 'json';
     parameters = commons.parameters;
-    parameters.oauth_token = commons.accessToken();
+    parameters.oauth_token = keys.oauth_access_token;
     parameters.format = format;
     parameters.test = test;
 
-    var consumerSecret = commons.consumerSecret();
-    var tokenSecret = commons.accessTokenSecret();
+    var consumerSecret = keys.consumer_secret;
+    var tokenSecret = keys.oauth_access_token_secret;
 
     var httpMethod = 'DELETE',
-
-        url = 'https://www.car2go.com/api/v2.1/booking/321',
+        url = 'https://www.car2go.com/api/v2.1/booking/' + bookingId, //bookingId goes here
         parameters,
         consumerSecret,
         tokenSecret,
@@ -40,11 +41,11 @@ router.get('/', function(req, res, next) {
     // Calls car2go and WAITS for the response
     var request = require('sync-request');
     var cancelBookingURL = url  + '?' + 'format=' + format + '&test=' + test;
-    var res = request('DELETE', cancelBookingURL, {
+    var cancelBookingResponse = request('DELETE', cancelBookingURL, {
         headers: { Authorization: headerParams }
     });
 
-    var response = res.getBody('utf8');
+    var response = cancelBookingResponse.getBody('utf8');
     var responseToJSON = JSON.parse(response);
     var cancelConfirmed = responseToJSON.returnValue.description + " Your booking has been Cancelled.";
     // for xml string parsing example, see below

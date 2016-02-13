@@ -20,9 +20,6 @@ var intervalCheck = require('./routes/intervalCheck');
 var getCarData = require('./routes/getCarData');
 // var users = require('./routes/users');
 
-// var myTest = require('./routes/users2');
-// myTest.test();
-
 // instance of express
 var app = express();
 
@@ -55,8 +52,6 @@ app.use('/createBooking', createBooking);
 app.use('/cancelBooking', cancelBooking);
 app.use('/intervalCheck', intervalCheck);
 app.use('/getCarData', getCarData);
-
-// app.use('/users', users);
 
 //activate when not using intellij
 //app.listen(3000, function () {

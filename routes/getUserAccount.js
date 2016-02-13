@@ -49,11 +49,6 @@ router.get('/', function(req, res, next) {
     var accountId = responseToJSON.account[0].accountId;
     console.log("accountId: " + accountId);
 
-    //res.end(responseParams[0]);
-
-    // res.render('index', { title: encodedSignature });
-    //res.render('getAccessToken', { message : "Reached!!!" });
-
 });
 
 module.exports = router;

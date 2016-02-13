@@ -49,6 +49,23 @@ var nonce = new (function() {
 })();
 module.exports.nonce = nonce;
 
+parameters = {
+    oauth_consumer_key : consumerKey,
+    oauth_nonce :  nonce.generate(),
+    oauth_timestamp : Date.now().toString().substring(0, 10),
+    oauth_signature_method : 'HMAC-SHA1',
+    oauth_version : '1.0'
+}
+module.exports.parameters = parameters;
+
+// Requirements for oauth and routes
+// reqtoken (home.js) - issues oauth_token, oauth_token_secret
+// authorizeToken (verifier.js) -
+// getAccessToken - verifier, token
+// getUserAccounts - location, token
+// createBooking - vin, accountId, token
+// cancelBooking - bookingId, token
+
 ////home.js ('requestToken') - gives back oauth_token and oauth_token_secret
 //parameters = {
 //
@@ -106,14 +123,7 @@ module.exports.nonce = nonce;
 
 
 //cancelBooking
-parameters = {
-    oauth_consumer_key : consumerKey,
-    oauth_nonce :  nonce.generate(),
-    oauth_timestamp : Date.now().toString().substring(0, 10),
-    oauth_signature_method : 'HMAC-SHA1',
-    oauth_version : '1.0'
-}
-module.exports.parameters = parameters;
+
 
 
 // Make finalURL

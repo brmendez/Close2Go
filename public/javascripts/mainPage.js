@@ -2,7 +2,6 @@
 var map; //maps is created in initMap func
 var freeCars; //called in httpGetAsync();
 var myLatLng; //location is generated in getUserGeoLocation() which is called from initMap
-var domain = 'https://www.car2go.com/api/authorize';
 var currentVin = -1;
 var reserveCarLocation; // object{lat:, lng:}
 
@@ -56,7 +55,8 @@ var infoWindow = new google.maps.InfoWindow({map: map});
       });
       circle.bindTo('center', meMarker, 'position');
 
-        httpGetAsync();
+        // After user location is determined, get all the cars to plot
+        getCarsAsync();
 
         //$.ajax({
         //    url: '/getCarData',
@@ -69,9 +69,6 @@ var infoWindow = new google.maps.InfoWindow({map: map});
         //
         //    }
         //});
-
-    // user's latitude and longitude passed to prep for getNearestCar() method
-    //  httpGetAsync(myLatLng.lat, myLatLng.lng);
 
     }, function() {
       handleLocationError(true, infoWindow, map.getCenter());
@@ -89,8 +86,7 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
   'Error: Your browser doesn\'t support geolocation.');
 }
 
-
-function httpGetAsync() {
+function getCarsAsync() {
 
     var url = "/getCarData";
     var xmlHttp = new XMLHttpRequest();
@@ -102,9 +98,7 @@ function httpGetAsync() {
     };
     xmlHttp.open("GET", url+"?"+"lat="+myLatLng.lat + "&" + "lng="+myLatLng.lng, true); // true for asynchronous
     xmlHttp.send(null);
-
 }
-
 
 function plotCars(freeCars) {
 
@@ -145,14 +139,9 @@ function plotCars(freeCars) {
 
         google.maps.event.addListener(marker, 'click', (function(marker,i) {
             return function() {
+
                 currentVin = (drill[i].vin);
                 console.log(currentVin);
-                // //grab a reference to reservation
-                reserveCarLocation = [
-                    drill[i]
-                ];
-                // //pass in to my function with user location
-                // keepCheckingForCloserCars(mylocation, reserveCarLocation)
 
                 if(closestCar) {
                     infowindow.setContent(freeCars.closest.name = "The nearest car. Jackpot.");
@@ -162,19 +151,15 @@ function plotCars(freeCars) {
                 infowindow.setContent(freeCars.cars.placemarks[i].name);
                 infowindow.open(map, marker);
 
-
             }
         })(marker,i));
     }
-
 }
 
-
-    $('#reserveCarForm').off('click').click(function () { // need to call '.off('click') since ajax was firing x += 1 times on each reserve
+    $('#reserveCarForm').off('click').click(function () { // need to call '.off('click')' since ajax was increment binding additional clicks, x += 1
         document.forms["reserveCarForm"]["vin"].value = currentVin; //assigning ?vin=vinNumber
-        var x = currentVin;
 
-        if (x == null || x == "" || x == -1  )  {
+        if (currentVin == null || currentVin == "" || currentVin == -1  )  {
             alert("Please select a Car2Go");
             return false;
         }
@@ -184,7 +169,7 @@ function plotCars(freeCars) {
                 data: {vin: currentVin},
                 type: 'POST',
                 success: function(data) {
-                    console.log("THIS IS IT! SUCCESS: ", data);
+                    console.log("createBooking Success!: ", data);
 
                     $.ajax({
                         url: '/intervalCheck',
@@ -197,10 +182,22 @@ function plotCars(freeCars) {
                         },
                         type: 'POST',
                         success: function(data) {
-                            console.log("WooHoo, Made it!", data);
+                            console.log(data.message, data);
                             var userResponse = confirm(data.message + " " + data.address);
+                            var newVin = data.vin;
                             if (userResponse === true) {
-                                alert("Reservation Made!");
+
+                                // Perhaps make a function for this call instead of another ajax call
+                                $.ajax({
+                                    url: '/createBooking', //changed from intervalCheck
+                                    data: {vin: newVin},
+                                    type: 'POST',
+                                    success: function(data) {
+                                        console.log("Reserve Made! ", data);
+                                        alert("Reservation Made!");
+                                    }
+                                });
+
                             } else {
                                 alert("No reservation made.");
                             }
@@ -212,77 +209,7 @@ function plotCars(freeCars) {
         return false;
     });
 
-
-
-
-
-//dummy function , which will be eventually created in the oauth service.
- function oauth_getAccesToken() {
-
-
-  return "1F1kz9XHDJdwmcBQSnPudu9F";
- }
-
-
-//pythagoras theorem to calculate distance
-function calcDistBtwnPnts(pt1,pt2) {
-
-  var a = pt1.lat - pt2.lat; //usr lat - car lat
-  var b = pt1.lng - pt2.lng; //usr lng - car lng
-
-//obtains difference between my lat/long and car lat/long
-  var x = a * a;
-  var y = b * b;
-
-  // distance = a2 + b2
-  distance = x + y;
-
-    // = c2
-  var squareRoot = Math.sqrt(distance)
-
-  return squareRoot;
-
-}
-
-//takes single point and array of car locations.
-function getNearestCar(myLoc, cars) {
-
-  var minIndex;
-  var minDistance;
-  var currentDistance;
-
-  for (var i = 0; i < cars.length; i++) {
-    //extracts car one by one to compare distance in calcDistBtwnPnts
-    var carToCompare = {lat: cars[i].coordinates[1], lng: cars[i].coordinates[0]};
-
-    // currentDistance holds square root of user lat/long & car lat/long
-    currentDistance = calcDistBtwnPnts(myLoc,carToCompare);
-    /*
-    first iteration is ALWAYS undefined,so minDistance will be populated with first value.
-    The index at first iteration will also be captured
-    */
-    if (minDistance == undefined) {
-      minDistance = currentDistance;
-      minIndex = i;
-    } else {
-      if (currentDistance < minDistance) {
-          minDistance = currentDistance; //keep setting if finding smaller values
-          minIndex = i; //as well as index
-      };
-    }
-
-   };
-    return minIndex;
-};
-
-//dummy location for testing
-// me =
-//          {
-//            lat: 47.6532537,
-//            lng: -122.34816690000001
-//          };
-
-//An example of a car object
+// Car Object Example
 // var freeCars = {
 //   placemarks: [
 // {
