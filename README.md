@@ -1,3 +1,4 @@
+
 # Close2Go
 
 <h4>Front-End Objectives:</h4> 
@@ -15,4 +16,5 @@ I am developing the app using the following frameworks/run-time:
 <li>Bootstrap</li>
 </ul>
 
-<p align="center"><img src="https://raw.githubusercontent.com/brmendez/Close2Go/e40d6aff553be2732e83fe1a2c20cef4ff07caaa/images/Close2GoScreen.png" alt="Drawing" width="545" height="533 align="middle"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/brmendez/Close2Go/master/images/Close2GoScreen.png" alt="Drawing" width="545" height="533 align="middle"></p>
+
