@@ -9,8 +9,9 @@
 I am developing the app using the following frameworks/run-time:
 
 <ul>
-<li>Node.js</li>
 <li>HTML/CSS/JavaScript</li>
+<li>Node.js</li>
+<li>Express</li>
 <li>Google Maps SDK</li>
 <li>JQuery</li>
 <li>Bootstrap</li>
