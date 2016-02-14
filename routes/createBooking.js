@@ -17,7 +17,7 @@ router.post('/', function(req, res) {
     var format = 'json';
     var test = 1;
 
-    parameters = commons.parameters;
+    parameters = commons.getParams();
     parameters.oauth_token = keys.oauth_access_token;
     parameters.account = account;
     parameters.vin = vin;

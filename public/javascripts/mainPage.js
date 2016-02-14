@@ -5,6 +5,14 @@ var myLatLng; //location is generated in getUserGeoLocation() which is called fr
 var currentVin = -1;
 var reserveCarLocation; // object{lat:, lng:}
 
+//test
+//var loc;
+
+
+
+
+
+
 //nearest car
 var closestCar;
 
@@ -36,7 +44,16 @@ var infoWindow = new google.maps.InfoWindow({map: map});
                    lng: position.coords.longitude
                   };
 
-      infoWindow.setPosition(myLatLng);
+        // test
+        //loc = {
+        //    lat: myLatLng.lat,
+        //    lng: myLatLng.lng
+        //};
+
+
+
+
+        infoWindow.setPosition(myLatLng);
       infoWindow.setContent('You are here');
       map.setCenter(myLatLng);
 
@@ -101,7 +118,8 @@ function getCarsAsync() {
 }
 
 function plotCars(freeCars) {
-
+    //test
+    //console.log(freeCars);
     var drill = freeCars.cars.placemarks;
 
     closestCar =
@@ -176,7 +194,6 @@ function reserveCar2Go(vinNumber) {
         type: 'POST',
         success: function(data) {
             console.log("createBooking Success!: ", data);
-
             $.ajax({
                 url: '/intervalCheck',
                 data: {
@@ -189,21 +206,23 @@ function reserveCar2Go(vinNumber) {
                 type: 'POST',
                 success: function(data) {
                     console.log(data.message, data);
+                    //plotCars(testingCar);
                     var userResponse = confirm(data.message + " " + data.address);
                     var newVin = data.vin;
                     if (userResponse === true) {
 
-                        reserveCar2Go(newVin);
-                        //// Perhaps make a function for this call instead of another ajax call
-                        //$.ajax({
-                        //    url: '/createBooking', //changed from intervalCheck
-                        //    data: {vin: newVin},
-                        //    type: 'POST',
-                        //    success: function(data) {
-                        //        console.log("Reserve Made! ", data);
-                        //        alert("Reservation Made!");
-                        //    }
-                        //});
+                        // This ajax was not working properly because accountId trickled down from '/createBooking', made function in commons.js to give a new instance of 'parameters' for this request
+                        $.ajax({
+                            url: '/cancelBooking',
+                            data: {
+                                bookingId: 321
+                            },
+                            type: 'GET',
+                            success: function(data) {
+                                console.log("CANCELLED!");
+                                reserveCar2Go(newVin);
+                            }
+                        });
 
                     } else {
                         alert("No reservation made.");
@@ -215,22 +234,24 @@ function reserveCar2Go(vinNumber) {
 };
 
 
+
 // Car Object Example
-// var freeCars = {
-//   placemarks: [
-// {
-//     address: "Sturtevant Ave S 9279, 98118 Seattle",
-//     coordinates: [
-//     -122.34841,
-//     47.65109,
-//     0
-//     ],
-//     engineType: "CE",
-//     exterior: "GOOD",
-//     fuel: 48,
-//     interior: "GOOD",
-//     name: "AXG5026",
-//     smartPhoneRequired: false,
-//     vin: "WMEEJ3BA5EK780004"
-//   }]
-// };
+//var testingCar = {
+//
+//    placemarks: [
+//        {
+//            address: "Sturtevant Ave S 9279, 98118 Seattle",
+//            coordinates: [
+//                -122.34841,
+//                47.65109,
+//                0
+//            ],
+//            engineType: "CE",
+//            exterior: "GOOD",
+//            fuel: 48,
+//            interior: "GOOD",
+//            name: "AXG5026",
+//            smartPhoneRequired: false,
+//            vin: "WMEEJ3BA5EK780004"
+//        }]
+//};

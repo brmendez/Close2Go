@@ -49,6 +49,9 @@ var nonce = new (function() {
 })();
 module.exports.nonce = nonce;
 
+// See mainPage.js
+// Function was made to obtain new instance of params because accountId trickled down from first ajax call '/createBooking' down to 3rd ajax call when '/cancelBooking' fired
+var getParams = function() {
 parameters = {
     oauth_consumer_key : consumerKey,
     oauth_nonce :  nonce.generate(),
@@ -56,7 +59,9 @@ parameters = {
     oauth_signature_method : 'HMAC-SHA1',
     oauth_version : '1.0'
 }
-module.exports.parameters = parameters;
+    return parameters;
+}
+module.exports.getParams = getParams;
 
 // Requirements for oauth and routes
 // reqtoken (home.js) - issues oauth_token, oauth_token_secret

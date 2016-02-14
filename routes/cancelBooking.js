@@ -10,11 +10,13 @@ var commons = require('../commons/commons.js');
 // *** bookingId must be appended in url prior to signing 'https://www.car2go.com/api/v2.1/booking/[bookingId]' as shown below
 
 router.get('/', function(req, res, next) {
+    //var bookingId = '321';
 
-    var bookingId = '321';
+    var queryReq = req.query;
+    var bookingId = queryReq.bookingId;
     var test = 1;
     var format = 'json';
-    parameters = commons.parameters;
+    parameters = commons.getParams();
     parameters.oauth_token = keys.oauth_access_token;
     parameters.format = format;
     parameters.test = test;
@@ -52,6 +54,8 @@ router.get('/', function(req, res, next) {
 
     console.log(cancelConfirmed);
     console.log("end cancelBooking");
+    res.json(cancelConfirmed);
+
 
 });
 module.exports = router;
