@@ -238,7 +238,7 @@ getCarsFromCar2Go = function() {
         return theCar;
     };
 
-//pythagoras theorem to calculate distance
+//Pythagorean theorem to calculate distance
     function calcDistBtwnPnts(pt1, pt2) {
 
         var a = pt1.lat - pt2.lat; //usr lat - car lat

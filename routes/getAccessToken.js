@@ -15,7 +15,7 @@ router.get('/', function(req, res, next) {
     var tokenSecret = query.oauth_token_secret;
     var verifier = query.oauth_verifier;
 
-    parameters = commons.parameters;
+    parameters = commons.getParams();
     parameters.oauth_callback = 'oob';
     parameters.oauth_token = oauthToken;
     parameters.oauth_verifier = verifier;
@@ -42,11 +42,15 @@ router.get('/', function(req, res, next) {
     var newOAuthToken = responseParams[0];
     var newOAuthTokenSecret = responseParams[1];
 
+
     /**********************************************************************************************/
     // From Car2Go API
     //https://www.car2go.com/api/authorize	Pass request token as parameter, e.g. "?oauth_token=[token]"
 
-    res.render('getAccessToken', { message : "Reached!!!" });
+    //res.render('getUserAccount', { message : "Reached!!!" });
+
+    res.redirect("/getUserAccount" + "?" + newOAuthToken + "&" + newOAuthTokenSecret);
 });
+
 
 module.exports = router;

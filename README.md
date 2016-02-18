@@ -4,7 +4,7 @@
 <h4>Front-End Objectives:</h4> 
 
 
-<p>The objective is to make Car2Go reservations even simpler by automatically reserving the nearest car. The app also provides the option to monitor for any additional cars that may appear even closer to the users current location, in which case will swap the reservation if one becomes available.</p>
+<p>Close2Go's objective is to make Car2Go reservations even simpler by automatically reserving the nearest car. Close2Go also provides the option to monitor for any additional cars that appear closer than the current reservation to the users location. If one becomes available, the reservation will be swapped for the closer vehicle.</p>
 
 I am developing the app using the following frameworks/run-time:
 

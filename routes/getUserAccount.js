@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 var oauthsig = require('oauth-signature');
 var commons = require('../commons/commons.js');
+var keys = require('../config.json');
 
 
 router.get('/', function(req, res, next) {
@@ -9,22 +10,20 @@ router.get('/', function(req, res, next) {
     // Parse incoming req
     var query = require('url').parse(req.url,true).query;
     var oauthToken = query.oauth_token;
-    var oauthTokenSecret = query.oauth_token_secret;
+    var tokenSecret = query.oauth_token_secret;
     var verifier = query.oauth_verifier;
 
-    //oauth_token=2iY5Q1mHcR3fSgNHKpJpswzx&oauth_token_secret=tPMebSHlmddzVgukjBe9TQOy
-    //var accessToken = "2iY5Q1mHcR3fSgNHKpJpswzx";
-    //var accessTokenSecret = "tPMebSHlmddzVgukjBe9TQOy";
-
-    var accessToken = commons.accessToken();
+    //var accessToken = commons.accessToken();
 
     var consumerSecret = commons.consumerSecret();
-    var tokenSecret = commons.accessTokenSecret();
+    //var tokenSecret = commons.accessTokenSecret();
+    console.log('myToken', keys.oauth_access_token);
+    console.log('myTokenSecret', keys.oauth_access_token_secret);
 
     var format = 'json';
 
-    parameters = commons.parameters;
-    parameters.oauth_token = accessToken;
+    parameters = commons.getParams();
+    parameters.oauth_token = oauthToken;
     parameters.oauth_callback = 'oob';
     parameters.loc = 'Seattle';
     parameters.format = format;
@@ -48,6 +47,7 @@ router.get('/', function(req, res, next) {
     var responseToJSON = JSON.parse(responseParams[0]);
     var accountId = responseToJSON.account[0].accountId;
     console.log("accountId: " + accountId);
+    res.redirect('/index.html');
 
 });
 

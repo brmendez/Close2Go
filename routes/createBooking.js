@@ -18,14 +18,16 @@ router.post('/', function(req, res) {
     var test = 1;
 
     parameters = commons.getParams();
-    parameters.oauth_token = keys.oauth_access_token;
+    //parameters.oauth_token = keys.oauth_access_token;
+    parameters.oauth_token = 'ncO71DqLUeoUMgc7emvPGaNk';
     parameters.account = account;
     parameters.vin = vin;
     parameters.format = format;
     parameters.test = test;
 
     var consumerSecret = keys.consumer_secret;
-    var tokenSecret = keys.oauth_access_token_secret;
+    //var tokenSecret = keys.oauth_access_token_secret;
+    var tokenSecret = 'jjEg57gpZEJe7Z1zj8waBdRX';
 
     var httpMethod = 'POST',
         url = 'https://www.car2go.com/api/v2.1/bookings',

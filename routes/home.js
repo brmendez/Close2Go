@@ -7,7 +7,7 @@ var commons = require('../commons/commons.js');
 
 router.get('/', function(req, res, next) {
 
-    parameters = commons.parameters;
+    parameters = commons.getParams();
     parameters.oauth_callback = 'oob';
 
     var consumerSecret = keys.consumer_secret;
@@ -47,7 +47,7 @@ router.get('/', function(req, res, next) {
     //https://www.car2go.com/api/authorize	Pass request token as parameter, e.g. "?oauth_token=[token]"
 
     // Send client to getVerifier with oauth_token and oauth_token_secret
-    res.redirect("http://localhost:3000/getVerifier.html?" + oauthToken + "&" + oauthTokenSecret);
+    res.redirect("/getVerifier.html?" + oauthToken + "&" + oauthTokenSecret);
 
 });
 module.exports = router;

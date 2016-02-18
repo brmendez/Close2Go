@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/stylesheets/style.css">
     <script src="/javascripts/verifier.js"></script>
 </head>
+<body>
 
     <!--form to collect verifier from user.
      Pass oauthTokenHidden and oauthTokenSecretHidden as a hidden param-->
@@ -16,6 +17,10 @@
 
         <h2>Enter Verifier</h2><input type="text" name="oauth_verifier"><input type="submit" value="Submit">
     </form>
+
+    <iframe id="myFrame" width="350px" height="270px">
+        <p>Your browser does not support iframes.</p>
+    </iframe>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
