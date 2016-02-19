@@ -16,7 +16,7 @@ var consumerSecret = function () {
 module.exports.consumerSecret = consumerSecret;
 
 var accessToken = function() {
-    var accessToken = process.env['OAUTH_ACCESS_TOKEN'] = configData['oauth_access_token'];
+    var accessToken = process.env['OAUTH_ACCESS_TOKEN'];
     return accessToken;
 }
 module.exports.accessToken = accessToken;

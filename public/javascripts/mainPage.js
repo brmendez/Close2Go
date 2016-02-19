@@ -189,7 +189,7 @@ function plotCars(freeCars) {
 
 function reserveCar2Go(vinNumber) {
     $.ajax({
-        url: '/createBooking', //changed from intervalCheck
+        url: '/createBooking',
         data: {vin: vinNumber},
         type: 'POST',
         success: function(data) {

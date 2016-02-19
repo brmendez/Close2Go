@@ -30,9 +30,16 @@ app.set('view engine', 'jade');
 ////these are pulling from my environment variables in config.json. *configData defined above
 process.env['CONSUMER_KEY'] = configData['consumer_key'];
 process.env['CONSUMER_SECRET'] = configData['consumer_secret'];
-process.env['OAUTH_ACCESS_TOKEN'] = configData['oauth_access_token'];
-process.env['OAUTH_ACCESS_TOKEN_SECRET'] = configData['oauth_access_token_secret'];
-process.env['ACCOUNT_ID'] = configData['account_id'];
+//process.env['OAUTH_ACCESS_TOKEN'] = configData['oauth_access_token'];
+//process.env['OAUTH_ACCESS_TOKEN_SECRET'] = configData['oauth_access_token_secret'];
+//process.env['ACCOUNT_ID'] = configData['account_id'];
+
+if(process.env.ACCOUNT_ID) {
+  console.log('It is set!');
+}
+else {
+  console.log('Not set!');
+}
 
 
 // uncomment after placing your favicon in /public

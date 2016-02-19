@@ -2,23 +2,17 @@ var express = require('express');
 var router = express.Router();
 var oauthsig = require('oauth-signature');
 var commons = require('../commons/commons.js');
-var keys = require('../config.json');
-
 
 router.get('/', function(req, res, next) {
 
     // Parse incoming req
     var query = require('url').parse(req.url,true).query;
+    //var oauthToken = query.oauth_token;
     var oauthToken = query.oauth_token;
     var tokenSecret = query.oauth_token_secret;
-    var verifier = query.oauth_verifier;
-
-    //var accessToken = commons.accessToken();
 
     var consumerSecret = commons.consumerSecret();
     //var tokenSecret = commons.accessTokenSecret();
-    console.log('myToken', keys.oauth_access_token);
-    console.log('myTokenSecret', keys.oauth_access_token_secret);
 
     var format = 'json';
 
@@ -46,7 +40,8 @@ router.get('/', function(req, res, next) {
     var responseParams = request('GET', finalURL).body.toString('utf-8').split("&");
     var responseToJSON = JSON.parse(responseParams[0]);
     var accountId = responseToJSON.account[0].accountId;
-    console.log("accountId: " + accountId);
+    process.env["ACCOUNT_ID"] = accountId;
+    console.log("accountId obtained!: " + accountId);
     res.redirect('/index.html');
 
 });

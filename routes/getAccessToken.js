@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var oauthsig = require('oauth-signature');
-var keys = require('../config.json');
+var configData = require('../config.json');
 var commons = require('../commons/commons.js');
 
 /* GET home page. */
@@ -20,8 +20,7 @@ router.get('/', function(req, res, next) {
     parameters.oauth_token = oauthToken;
     parameters.oauth_verifier = verifier;
 
-    var consumerSecret = keys.consumer_secret;
-    var consumerKey = keys.consumer_key;
+    var consumerSecret = commons.consumerSecret();
 
     var httpMethod = 'GET',
         url = 'https://www.car2go.com/api/accesstoken',
@@ -40,7 +39,12 @@ router.get('/', function(req, res, next) {
     // New oauth_token and oauth_token_secret are issued
     var responseParams = request('GET', finalURL).body.toString('utf-8').split("&");
     var newOAuthToken = responseParams[0];
+    process.env['OAUTH_ACCESS_TOKEN'] = newOAuthToken.split('=')[1];
     var newOAuthTokenSecret = responseParams[1];
+    process.env['OAUTH_ACCESS_TOKEN_SECRET'] = newOAuthTokenSecret.split('=')[1];
+    console.log("access token ", process.env['OAUTH_ACCESS_TOKEN']);
+    console.log("access token secret ", process.env['OAUTH_ACCESS_TOKEN_SECRET']);
+
 
 
     /**********************************************************************************************/
