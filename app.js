@@ -61,9 +61,9 @@ app.use('/intervalCheck', intervalCheck);
 app.use('/getCarData', getCarData);
 
 //activate when not using intellij
-//app.listen(3000, function () {
-//console.log("express has started on port 3000");
-//});
+app.listen(3000, function () {
+console.log("express has started on port 3000");
+});
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
