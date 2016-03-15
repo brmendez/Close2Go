@@ -73,7 +73,6 @@ router.post('/', function (req, res) {
         // magic happens here
         // if newest search yields a car w/ smaller square root and different vin numbers, cancel, then reserve!
 
-
         if (newestCarSquareRoot < reserveSquareRoot) { //} && storedCar.vin != closerCar.vin) {    <----uncomment!-----
 
               console.log("There is a closer car!", closerCar.vin);
@@ -86,10 +85,10 @@ router.post('/', function (req, res) {
 
     keepGoing();
 
-    var myObject = {message: "There is a closer car! Would you like to reserve it? ", vin: closerCar.vin, address: closerCar.address};
+    var notification = {message: "There is a closer car! Would you like to reserve it? ", vin: closerCar.vin, address: closerCar.address};
     console.log("Interval Check!! ");
 
-    res.json(myObject);
+    res.json(notification);
 
 });
 

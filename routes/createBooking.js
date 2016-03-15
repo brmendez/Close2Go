@@ -7,18 +7,17 @@ var commons = require('../commons/commons.js');
 
 // createBooking is a HTTP POST request
 // needs the cars VIN # as well as the users Account ID
-// test - http://localhost:3000/createBooking?vin=WMEEJ3BA5FK791926
+// for testing - http://localhost:3000/createBooking?vin=WMEEJ3BA5FK791926
 
 router.post('/', function(req, res) {
     // Parse vin fom req
     var vin = req.body.vin;
 
-    var account = keys.account_id;
+    var account = process.env["ACCOUNT_ID"];
     var format = 'json';
     var test = 1;
 
     parameters = commons.getParams();
-    //parameters.oauth_token = keys.oauth_access_token;
     parameters.oauth_token = commons.accessToken();
     parameters.account = account;
     parameters.vin = vin;
@@ -41,7 +40,7 @@ router.post('/', function(req, res) {
     var headerParams = commons.makeHeaderParams();
 
     // Append signature to params
-    // In header params the '&' need to be ',' and the key values need to be in (") quotes
+    // In header params the '&' need to be ',' and the key values need to be in quotes (" ")
     headerParams = headerParams + ",oauth_signature=" + '"' + encodedSignature + '"';
 
     // Make synchronous web request

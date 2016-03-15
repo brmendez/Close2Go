@@ -1,14 +1,9 @@
-var keys = require('../config.json');
-
 // OAUTH BUILDER
 
-//these are pulling from my environment variables in config.json
+// environment variables in config.json
 var configData = require('../config.json');
+var consumerKey = process.env['CONSUMER_KEY'] = configData['consumer_key'];
 
-var consumerKey = process.env['CONSUMER_KEY'] = configData['consumer_key']; // function not needed since this value is always required
-
-// Made the choice to use function because values werent in my routes when I needed them
-// So I just call these methods from my routes to get the values
 var consumerSecret = function () {
     var consumerSecret = process.env['CONSUMER_SECRET'] = configData['consumer_secret'];
     return consumerSecret;
@@ -22,7 +17,7 @@ var accessToken = function() {
 module.exports.accessToken = accessToken;
 
 var accessTokenSecret = function() {
-    var accessTokenSecret = process.env['OAUTH_ACCESS_TOKEN_SECRET'] = configData['oauth_access_token_secret'];
+    var accessTokenSecret = process.env['OAUTH_ACCESS_TOKEN_SECRET'];
     return accessTokenSecret;
 }
 module.exports.accessTokenSecret = accessTokenSecret;
@@ -33,7 +28,7 @@ var accountId = function() {
 }
 module.exports.accountId = accountId;
 
-//Generates a nonce . inline function
+//Generates a nonce. Inline function
 var nonce = new (function() {
     this.generate = function() {
         var now = Date.now();
@@ -49,8 +44,8 @@ var nonce = new (function() {
 })();
 module.exports.nonce = nonce;
 
-// See mainPage.js
-// Function was made to obtain new instance of params because accountId trickled down from first ajax call '/createBooking' down to 3rd ajax call when '/cancelBooking' fired
+// getParams returns all standard params for each step of OAuth 1.0.
+// Additional params need to be set in route before call is made
 var getParams = function() {
 parameters = {
     oauth_consumer_key : consumerKey,
@@ -63,73 +58,13 @@ parameters = {
 }
 module.exports.getParams = getParams;
 
-// Requirements for oauth and routes
-// reqtoken (home.js) - issues oauth_token, oauth_token_secret
-// authorizeToken (verifier.js) -
-// getAccessToken - verifier, token
-// getUserAccounts - location, token
-// createBooking - vin, accountId, token
-// cancelBooking - bookingId, token
-
-////home.js ('requestToken') - gives back oauth_token and oauth_token_secret
-//parameters = {
-//
-//    oauth_consumer_key : 'TheKey',
-//    oauth_nonce :  nonce.generate(),
-//    oauth_timestamp : Date.now().toString().substring(0, 10),
-//    oauth_signature_method : 'HMAC-SHA1',
-//    oauth_version : '1.0',
-//    oauth_callback : 'oob'
-//}
-
-
-////getAccessToken
-//parameters = {
-//
-//    oauth_consumer_key : 'TheKey',
-//    oauth_nonce :  nonce.generate(),
-//    oauth_timestamp : Date.now().toString().substring(0, 10),
-//    oauth_signature_method : 'HMAC-SHA1',
-//    oauth_version : '1.0',
-//    oauth_callback : 'oob',
-//    oauth_token : oauthToken,
-//    oauth_verifier : verifier
-//}
-
-
-////getUserAccount
-//parameters = {
-//
-//    oauth_consumer_key : 'TheKey',
-//    oauth_nonce :  nonce.generate(),
-//    oauth_timestamp : Date.now().toString().substring(0, 10),
-//    oauth_signature_method : 'HMAC-SHA1',
-//    oauth_version : '1.0',
-//    oauth_callback : 'oob',
-//    oauth_token : accessToken,
-//    loc : 'Seattle'
-//}
-
-
-////createBooking
-////account, vin, format
-//parameters = {
-//    oauth_consumer_key : process.env['CONSUMER_KEY'],
-//    oauth_nonce :  nonce.generate(),
-//    oauth_timestamp : Date.now().toString().substring(0, 10),
-//    oauth_signature_method : 'HMAC-SHA1',
-//    oauth_version : '1.0',
-//    oauth_token : accessToken,
-//    account : account,
-//    vin : vin,
-//    test : test,
-//    format : 'json'
-//}
-
-
-//cancelBooking
-
-
+// Requirements for OAuth and Routes
+// reqtoken (home.js)               - issues oauth_token, oauth_token_secret
+// authorizeToken (verifier.js)     - token
+// getAccessToken - verifier, token - issues new oauth_token and oauth_token_secret
+// getUserAccounts                  - location, token
+// createBooking                    - vin, accountId, token
+// cancelBooking                    - bookingId, token
 
 // Make finalURL
 var makeURLForRequest = function(url) {
@@ -157,8 +92,7 @@ var makeURLForRequest = function(url) {
 module.exports.makeURLForRequest = makeURLForRequest;
 
 
-
-// create request headers for create/cancelBooking
+// Creates request headers for createBooking/cancelBooking
 var makeHeaderParams = function () {
     var headerParams = 'OAuth ' ;
     var x = 0;
@@ -188,13 +122,10 @@ var makeHeaderParams = function () {
 module.exports.makeHeaderParams = makeHeaderParams;
 
 
-
-
 // MY FUNCTIONS
 
 //Web request to Car2Go to retrieve all available cars
 getCarsFromCar2Go = function() {
-
     var consumerKey = process.env['CONSUMER_KEY'];
     var finalURL = "https://www.car2go.com/api/v2.1/vehicles?loc=seattle&oauth_consumer_key=" + consumerKey + "&format=json";
     var request = require('sync-request');
@@ -203,7 +134,7 @@ getCarsFromCar2Go = function() {
     return responseParams[0];
 }
 
-//takes users lat/lng and array of cars.
+// Takes users lat/lng and array of cars. Returns the closest car object
   var getNearestCar = function(userLatLng, cars) {
 
         var minIndex;

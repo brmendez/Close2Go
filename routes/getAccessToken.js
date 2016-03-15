@@ -45,16 +45,13 @@ router.get('/', function(req, res, next) {
     console.log("access token ", process.env['OAUTH_ACCESS_TOKEN']);
     console.log("access token secret ", process.env['OAUTH_ACCESS_TOKEN_SECRET']);
 
-
-
-    /**********************************************************************************************/
-    // From Car2Go API
-    //https://www.car2go.com/api/authorize	Pass request token as parameter, e.g. "?oauth_token=[token]"
-
-    //res.render('getUserAccount', { message : "Reached!!!" });
-
     res.redirect("/getUserAccount" + "?" + newOAuthToken + "&" + newOAuthTokenSecret);
 });
 
 
 module.exports = router;
+
+
+/**********************************************************************************************/
+// From Car2Go API
+//https://www.car2go.com/api/authorize	Pass request token as parameter, e.g. "?oauth_token=[token]"

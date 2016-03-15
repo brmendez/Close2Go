@@ -10,8 +10,8 @@ router.get('/', function(req, res, next) {
     parameters = commons.getParams();
     parameters.oauth_callback = 'oob';
 
-    var consumerSecret = keys.consumer_secret;
-
+    //var consumerSecret = keys.consumer_secret;
+    var consumerSecret = process.env['CONSUMER_SECRET'];
     var httpMethod = 'GET',
         url = 'https://www.car2go.com/api/reqtoken',
         parameters,
@@ -19,7 +19,6 @@ router.get('/', function(req, res, next) {
         encodedSignature = oauthsig.generate(httpMethod, url, parameters, consumerSecret);
 
     var finalURL = commons.makeURLForRequest(url);
-
     finalURL = finalURL + "&oauth_signature=" + encodedSignature;
 
     /*

@@ -24,9 +24,9 @@ router.get('/', function(req, res, next) {
 
     closestCar = commons.getNearestCar(userLocation, carsJSON.placemarks);
 
-    var myObject = {cars: carsJSON, closest: closestCar, userLocation: userLocation};
+    var carInfo = {cars: carsJSON, closest: closestCar, userLocation: userLocation};
 
-    res.json(myObject);
+    res.json(carInfo);
 
 });
 

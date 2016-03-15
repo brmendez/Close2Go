@@ -1,7 +1,6 @@
 var express = require('express');
 var router = express.Router();
 var oauthsig = require('oauth-signature');
-var keys = require('../config.json');
 var commons = require('../commons/commons.js');
 
 // the code exists in commons.js

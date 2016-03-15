@@ -44,14 +44,6 @@ var infoWindow = new google.maps.InfoWindow({map: map});
                    lng: position.coords.longitude
                   };
 
-        // test
-        //loc = {
-        //    lat: myLatLng.lat,
-        //    lng: myLatLng.lng
-        //};
-
-
-
 
         infoWindow.setPosition(myLatLng);
       infoWindow.setContent('You are here');
