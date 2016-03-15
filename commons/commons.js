@@ -24,7 +24,7 @@ var accessTokenSecret = function() {
 module.exports.accessTokenSecret = accessTokenSecret;
 
 var accountId = function() {
-    var accountId = process.env['ACCOUNT_ID'] = configData['account_id'];
+    var accountId = process.env['ACCOUNT_ID'];// = configData['account_id'];
     return accountId;
 }
 module.exports.accountId = accountId;
