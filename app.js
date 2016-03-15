@@ -9,8 +9,8 @@ var bodyParser = require('body-parser');
 var configData = require('./config.json');
 //these are pulling from my environment variables in config.json
 //Heroku
-process.env['CONSUMER_KEY'] = configData['consumer_key'];
-process.env['CONSUMER_SECRET'] = configData['consumer_secret'];
+//process.env['CONSUMER_KEY'] = configData['consumer_key'];
+//process.env['CONSUMER_SECRET'] = configData['consumer_secret'];
 
 // Routes I have created
 var routes = require('./routes/index');
@@ -62,13 +62,13 @@ app.use('/getCarData', getCarData);
 //});
 
 //// lets the port be set up by Heroku
-//var port = process.env.PORT || 3000;
-//app.listen(port);
+var port = process.env.PORT || 3000;
+app.listen(port);
 
 // lets the port be set up by Heroku
-app.listen(process.env.PORT || 5000, function(){
-  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
-});
+//app.listen(process.env.PORT || 5000, function(){
+//  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+//});
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
