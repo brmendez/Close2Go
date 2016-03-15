@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var oauthsig = require('oauth-signature');
-var configData = require('../config.json');
+//var configData = require('../config.json');
 var commons = require('../commons/commons.js');
 
 /* GET home page. */

@@ -1,11 +1,12 @@
 // OAUTH BUILDER
 
 // environment variables in config.json
-var configData = require('../config.json');
-var consumerKey = process.env['CONSUMER_KEY'] = configData['consumer_key'];
-
+//var configData = require('../config.json');
+//var consumerKey = process.env['CONSUMER_KEY'] = configData['consumer_key'];
+var consumerKey = process.env['CONSUMER_KEY'];
 var consumerSecret = function () {
-    var consumerSecret = process.env['CONSUMER_SECRET'] = configData['consumer_secret'];
+    //var consumerSecret = process.env['CONSUMER_SECRET'] = configData['consumer_secret'];
+    var consumerSecret = process.env['CONSUMER_SECRET'];
     return consumerSecret;
 }
 module.exports.consumerSecret = consumerSecret;
