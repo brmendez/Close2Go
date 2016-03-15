@@ -6,9 +6,9 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 // keys and secrets
-//var configData = require('./config.json');
-//these are pulling from my environment variables in config.json
-//Heroku
+//var configData = require('./config.json'); // the CONSUMER_KEY and CONSUMER_SECRET
+// must be set via config.json if not running from Heroku deploy
+//Heroku handles my ENV variables
 //process.env['CONSUMER_KEY'] = configData['consumer_key'];
 //process.env['CONSUMER_SECRET'] = configData['consumer_secret'];
 
