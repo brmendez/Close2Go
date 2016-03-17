@@ -91,3 +91,4 @@ node_modules
 .DS_Store
 
 config.json
+.env
