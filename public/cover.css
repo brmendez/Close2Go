@@ -41,6 +41,7 @@ body {
 }
 
 .map_container{
+    margin-top: 30px;
     position: relative;
     width: 100%;
     /*padding-bottom: 56.25%;*/ /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
@@ -196,7 +197,17 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 700px;
+    /*width: 700px;*/
+    width: 60%;
+  }
+}
+
+@media (max-width: 475px) {
+  .map_container {
+    padding-top: 40%;
+  }
+  #mainTitle {
+    font-size: 32px;
   }
 }
 
