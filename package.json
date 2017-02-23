@@ -1,7 +1,10 @@
 {
-  "name": "MyFirstNodeJSApp",
-  "version": "0.0.0",
+  "name": "Close2Go",
+  "version": "1.0.0",
   "private": true,
+  "engines": {
+    "node": "6.9.5"
+  },
   "scripts": {
     "start": "node ./bin/www"
   },
