@@ -4,7 +4,7 @@
 <h4>Please Read:</h4>
 <em>NOTE: SHARE NOW, in conjunction with its shareholders at Daimler AG and The BMW Group, has decided to exit the North American market and cease operations in London, Brussels and Florence, effective February 29, 2020.</em> 😢
 
-[👉Read Reference 👈](https://www.share-now.com/us/en/important-update/)
+[👉Read Reference 👈](https://www.smartcitiesdive.com/news/share-now-formerly-car2go-decides-to-fully-exit-north-america/564104/)
 
 Since there have been several changes to car share services and ultimately the shutdown of the Car2Go service in the US, I will no longer maintain this application. I will just keep the code here for reference. -Brian
 
